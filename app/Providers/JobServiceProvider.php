@@ -36,9 +36,12 @@ class JobServiceProvider extends XotBaseServiceProvider
     {
         parent::boot();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> a4b668e (.)
         /*
             $this->app->resolving(Schedule::class, function ($schedule) {
                 dddx($schedule);
@@ -53,8 +56,11 @@ class JobServiceProvider extends XotBaseServiceProvider
         //    echo $e->getMessage();
         // }
         // });
+<<<<<<< HEAD
 >>>>>>> origin/dev
 >>>>>>> origin/dev
+=======
+>>>>>>> a4b668e (.)
         Import::polymorphicUserRelationship();
         Export::polymorphicUserRelationship();
         $this->registerQueue();
@@ -63,9 +69,12 @@ class JobServiceProvider extends XotBaseServiceProvider
     public function registerQueue(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+>>>>>>> a4b668e (.)
         Queue::before(function (JobProcessing $event) {
             $this->jobStarted($event->job);
         });
@@ -103,10 +112,15 @@ class JobServiceProvider extends XotBaseServiceProvider
         // Per ora lo lasciamo vuoto in attesa di implementazione specifica
     }
 
+<<<<<<< HEAD
     public function registerSchedule(Schedule $schedule): void 
     {
 <<<<<<< HEAD
 =======
+=======
+    public function registerSchedule(Schedule $schedule): void
+    {
+>>>>>>> a4b668e (.)
 =======
         /*
         Queue::before(static function (JobProcessing $event) {
@@ -129,8 +143,12 @@ class JobServiceProvider extends XotBaseServiceProvider
 
     /*
     public function registerSchedule(Schedule $schedule): void {
+<<<<<<< HEAD
 >>>>>>> origin/dev
 >>>>>>> origin/dev
+=======
+>>>>>>> 0458200 (.)
+>>>>>>> a4b668e (.)
         if (Schema::hasTable('tasks')) {
             $tasks = app(Task::class)
                 ->query()
@@ -139,9 +157,12 @@ class JobServiceProvider extends XotBaseServiceProvider
                 ->get();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+>>>>>>> a4b668e (.)
             $tasks->each(function ($task) use ($schedule) {
                 if (! $task instanceof Task) {
                     throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -153,7 +174,11 @@ class JobServiceProvider extends XotBaseServiceProvider
                 }
 
                 $event = $schedule->command($task->command, $parameters);
+<<<<<<< HEAD
                 
+=======
+
+>>>>>>> a4b668e (.)
                 $event->{$task->expression}()
                     ->name($task->description)
                     ->timezone($task->timezone)
@@ -180,7 +205,10 @@ class JobServiceProvider extends XotBaseServiceProvider
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a4b668e (.)
 =======
             $tasks->each(
                 function ($task) use ($schedule) {
@@ -219,6 +247,10 @@ class JobServiceProvider extends XotBaseServiceProvider
         }
     }
     */
+<<<<<<< HEAD
 >>>>>>> origin/dev
 >>>>>>> origin/dev
+=======
+>>>>>>> 0458200 (.)
+>>>>>>> a4b668e (.)
 }

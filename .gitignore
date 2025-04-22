@@ -37,6 +37,7 @@ cache/
 .php-cs-fixer.cache
 *:Zone.Identifier
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -48,3 +49,8 @@ cache/
 
 >>>>>>> origin/dev
 >>>>>>> origin/dev
+=======
+=======
+.php-cs-fixer.cache
+>>>>>>> 0458200 (.)
+>>>>>>> a4b668e (.)

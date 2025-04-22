@@ -18,6 +18,10 @@ class JobBatchResource extends XotBaseResource
 
     // protected static ?string $model = JobBatch::class;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a4b668e (.)
     public static function getFormSchema(): array
     {
         return [
@@ -44,6 +48,39 @@ class JobBatchResource extends XotBaseResource
                 ->required(),
             'cancelled_at' => \Filament\Forms\Components\DateTimePicker::make('cancelled_at'),
             'finished_at' => \Filament\Forms\Components\DateTimePicker::make('finished_at'),
+<<<<<<< HEAD
+=======
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-queue-list';
+
+    public static function getFormSchema(): array
+    {
+        return [
+            \Filament\Forms\Components\TextInput::make('id')
+                ->required()
+                ->maxLength(255),
+            \Filament\Forms\Components\TextInput::make('name')
+                ->required()
+                ->maxLength(255),
+            \Filament\Forms\Components\TextInput::make('total_jobs')
+                ->numeric()
+                ->required(),
+            \Filament\Forms\Components\TextInput::make('pending_jobs')
+                ->numeric()
+                ->required(),
+            \Filament\Forms\Components\TextInput::make('failed_jobs')
+                ->numeric()
+                ->required(),
+            \Filament\Forms\Components\Toggle::make('failed')
+                ->required(),
+            \Filament\Forms\Components\Textarea::make('options')
+                ->maxLength(65535),
+            \Filament\Forms\Components\DateTimePicker::make('created_at')
+                ->required(),
+            \Filament\Forms\Components\DateTimePicker::make('cancelled_at'),
+            \Filament\Forms\Components\DateTimePicker::make('finished_at'),
+>>>>>>> 0458200 (.)
+>>>>>>> a4b668e (.)
         ];
     }
 
