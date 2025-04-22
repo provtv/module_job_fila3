@@ -22,9 +22,12 @@ class JobManagerResource extends XotBaseResource
     protected static ?string $model = JobManager::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -42,6 +45,7 @@ class JobManagerResource extends XotBaseResource
             'attempt' => TextInput::make('attempt')
                 ->required(),
             'exception_message' => Textarea::make('exception_message')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -66,6 +70,8 @@ class JobManagerResource extends XotBaseResource
             Textarea::make('exception_message')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
                 ->maxLength(65535),
         ];
     }

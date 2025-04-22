@@ -91,9 +91,12 @@ class Task extends BaseModel
     use Notifiable;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
     /**
      * Compila i parametri del task per l'esecuzione.
      *
@@ -116,11 +119,16 @@ class Task extends BaseModel
         return $parameters;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     /** @var list<string> */
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+
+    /** @var list<string> */
+>>>>>>> 410dbb3 (.)
     protected $fillable = [
         'id',
         'description',

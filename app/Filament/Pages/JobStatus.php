@@ -35,6 +35,7 @@ class JobStatus extends Page
         $result = Process::run('dir');
         $this->out = '';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
@@ -51,6 +52,11 @@ class JobStatus extends Page
         Assert::string($errorOutput = mb_convert_encoding($result->errorOutput(), 'UTF-8'), '['.__LINE__.']['.class_basename($this).']');
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+        Assert::string($output = mb_convert_encoding($result->output(), 'UTF-8'), '['.__LINE__.']['.class_basename($this).']');
+        $this->out .= $output;
+        Assert::string($errorOutput = mb_convert_encoding($result->errorOutput(), 'UTF-8'), '['.__LINE__.']['.class_basename($this).']');
+>>>>>>> 410dbb3 (.)
         $this->out .= $errorOutput;
         $this->out .= now();
     }
@@ -58,9 +64,9 @@ class JobStatus extends Page
     public function artisan(string $cmd): void
     {
         $this->out = '';
-<<<<<<< HEAD
         Artisan::call($cmd);
         $this->out .= Artisan::output();
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         Artisan::call($cmd);
@@ -72,6 +78,8 @@ class JobStatus extends Page
         // $this->out .= '<hr/>';
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
     }
 
     public function getViewData(): array

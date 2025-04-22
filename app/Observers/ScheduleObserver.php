@@ -63,9 +63,12 @@ class ScheduleObserver
      * @return void
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
     protected function clearCache(): void
     {
         if (config('job::cache.enabled')) {
@@ -73,6 +76,7 @@ class ScheduleObserver
             if ($scheduleService !== null) {
                 $scheduleService->clearCache();
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -83,6 +87,8 @@ class ScheduleObserver
             $scheduleService->clearCache();
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
         }
     }
 }

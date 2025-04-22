@@ -18,13 +18,17 @@ class ExportResource extends XotBaseResource
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
             'name' => \Filament\Forms\Components\TextInput::make('name')
                 ->required()
                 ->maxLength(255),
             'type' => \Filament\Forms\Components\Select::make('type')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -34,6 +38,8 @@ class ExportResource extends XotBaseResource
             \Filament\Forms\Components\Select::make('type')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
                 ->required()
                 ->options([
                     'csv' => 'CSV',
@@ -41,8 +47,8 @@ class ExportResource extends XotBaseResource
                     'pdf' => 'PDF',
                 ])
                 ->default('csv'),
-<<<<<<< HEAD
             'status' => \Filament\Forms\Components\Select::make('status')
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             'status' => \Filament\Forms\Components\Select::make('status')
@@ -50,6 +56,8 @@ class ExportResource extends XotBaseResource
             \Filament\Forms\Components\Select::make('status')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
                 ->required()
                 ->options([
                     'pending' => 'Pending',
@@ -59,9 +67,12 @@ class ExportResource extends XotBaseResource
                 ])
                 ->default('pending'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
             'error_message' => \Filament\Forms\Components\Textarea::make('error_message')
                 ->maxLength(65535)
                 ->columnSpanFull(),
@@ -69,6 +80,7 @@ class ExportResource extends XotBaseResource
                 ->disabled(),
             'updated_at' => \Filament\Forms\Components\DateTimePicker::make('updated_at')
                 ->disabled(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -92,6 +104,8 @@ class ExportResource extends XotBaseResource
             'edit' => Pages\EditExport::route('/{record}/edit'),
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
         ];
     }
 }

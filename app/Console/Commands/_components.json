@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"php-unit-test-job-command","class":"PhpUnitTestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\PhpUnitTestJobCommand"},{"name":"schedule-clear-cache-command","class":"ScheduleClearCacheCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\ScheduleClearCacheCommand"},{"name":"test-job-command","class":"TestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\TestJobCommand"},{"name":"worker-check","class":"WorkerCheck","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\WorkerCheck"}]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 410dbb3 (.)
 [
     {
         "name": "php-unit-test-job-command",
@@ -32,7 +35,10 @@
         "ns": "Modules\\Job\\Console\\Commands\\WorkerCheck"
     }
 ]
+<<<<<<< HEAD
 =======
 [{"name":"php-unit-test-job-command","class":"PhpUnitTestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\PhpUnitTestJobCommand"},{"name":"schedule-clear-cache-command","class":"ScheduleClearCacheCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\ScheduleClearCacheCommand"},{"name":"test-job-command","class":"TestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\TestJobCommand"},{"name":"worker-check","class":"WorkerCheck","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\WorkerCheck"}]
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)

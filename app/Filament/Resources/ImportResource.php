@@ -13,9 +13,14 @@ class ImportResource extends XotBaseResource
     protected static ?string $model = Import::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+>>>>>>> 410dbb3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -27,6 +32,7 @@ class ImportResource extends XotBaseResource
                 ->acceptedFileTypes(['text/csv', 'application/vnd.ms-excel', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'])
                 ->maxSize(10240),
             'status' => \Filament\Forms\Components\Select::make('status')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -45,6 +51,8 @@ class ImportResource extends XotBaseResource
             \Filament\Forms\Components\Select::make('status')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
                 ->required()
                 ->options([
                     'pending' => 'Pending',
@@ -54,14 +62,18 @@ class ImportResource extends XotBaseResource
                 ])
                 ->default('pending'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
             'error_message' => \Filament\Forms\Components\Textarea::make('error_message')
                 ->maxLength(65535),
             'total_rows' => \Filament\Forms\Components\TextInput::make('total_rows')
                 ->numeric(),
             'processed_rows' => \Filament\Forms\Components\TextInput::make('processed_rows')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -74,6 +86,10 @@ class ImportResource extends XotBaseResource
             \Filament\Forms\Components\TextInput::make('failed_rows')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+                ->numeric(),
+            'failed_rows' => \Filament\Forms\Components\TextInput::make('failed_rows')
+>>>>>>> 410dbb3 (.)
                 ->numeric(),
         ];
     }
@@ -84,9 +100,12 @@ class ImportResource extends XotBaseResource
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 410dbb3 (.)
 
     public static function getPages(): array
     {
@@ -96,6 +115,9 @@ class ImportResource extends XotBaseResource
             'edit' => Pages\EditImport::route('/{record}/edit'),
         ];
     }
+<<<<<<< HEAD
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
 }

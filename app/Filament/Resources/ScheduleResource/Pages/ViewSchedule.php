@@ -94,6 +94,7 @@ class ViewSchedule extends Page implements HasTable
                     }),
                 Tables\Columns\TextColumn::make('output')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
@@ -104,12 +105,17 @@ class ViewSchedule extends Page implements HasTable
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 410dbb3 (.)
                     ->formatStateUsing(static fn (string $state): string => (count(explode('<br />', nl2br((string) $state))) - 1).' rows of output'),
             ]), Tables\Columns\Layout\Panel::make([
                 Tables\Columns\TextColumn::make('output')->extraAttributes(['class' => '!max-w-max'], true)
                     ->formatStateUsing(static fn (string $state): \Illuminate\Support\HtmlString => new HtmlString(nl2br((string) $state))),
+<<<<<<< HEAD
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
             ])->collapsible()
             // ->collapsed(config('job::history_collapsed'))
             ,

@@ -19,9 +19,12 @@ class JobBatchResource extends XotBaseResource
     // protected static ?string $model = JobBatch::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
     public static function getFormSchema(): array
     {
         return [
@@ -48,6 +51,7 @@ class JobBatchResource extends XotBaseResource
                 ->required(),
             'cancelled_at' => \Filament\Forms\Components\DateTimePicker::make('cancelled_at'),
             'finished_at' => \Filament\Forms\Components\DateTimePicker::make('finished_at'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -81,6 +85,8 @@ class JobBatchResource extends XotBaseResource
             \Filament\Forms\Components\DateTimePicker::make('finished_at'),
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
         ];
     }
 

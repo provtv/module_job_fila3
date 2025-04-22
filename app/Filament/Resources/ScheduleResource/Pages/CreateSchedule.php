@@ -42,15 +42,21 @@ class CreateSchedule extends \Modules\Xot\Filament\Resources\Pages\XotBaseCreate
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 =======
 <<<<<<< HEAD
    
 =======
+=======
+>>>>>>> 410dbb3 (.)
     protected function getRedirectUrl(): string
     {
         return $this->getResource()::getUrl('index');
     }
+<<<<<<< HEAD
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
 }

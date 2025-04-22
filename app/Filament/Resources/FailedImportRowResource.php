@@ -17,9 +17,12 @@ class FailedImportRowResource extends XotBaseResource
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
             'import_class' => Forms\Components\TextInput::make('import_class')
                 ->required()
                 ->maxLength(255),
@@ -30,6 +33,7 @@ class FailedImportRowResource extends XotBaseResource
                 ->required()
                 ->columnSpanFull(),
             'error_message' => Forms\Components\Textarea::make('error_message')
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -45,6 +49,8 @@ class FailedImportRowResource extends XotBaseResource
             Forms\Components\Textarea::make('error_message')
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
                 ->required()
                 ->columnSpanFull(),
         ];
@@ -55,6 +61,7 @@ class FailedImportRowResource extends XotBaseResource
         return [
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -70,4 +77,6 @@ class FailedImportRowResource extends XotBaseResource
     }
 >>>>>>> 0458200 (.)
 >>>>>>> a4b668e (.)
+=======
+>>>>>>> 410dbb3 (.)
 }
