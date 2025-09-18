@@ -295,4 +295,8 @@ cache/
 orbit.sqlite
 cache
 _docs
+<<<<<<< HEAD
 >>>>>>> 2492ddab (first)
+=======
+laravel/Modules/Cms/build/
+>>>>>>> 3781e97a (.)
