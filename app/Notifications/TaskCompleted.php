@@ -21,6 +21,7 @@ class TaskCompleted extends Notification implements ShouldQueue
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {}
 =======
     public function __construct(private readonly string $output) {}
@@ -28,6 +29,9 @@ class TaskCompleted extends Notification implements ShouldQueue
 =======
     public function __construct(private readonly string $output) {}
 >>>>>>> 2e199498 (.)
+=======
+    public function __construct(private readonly string $output) {}
+>>>>>>> eaeb6531 (.)
 
     /**
      * Get the notification's delivery channels.

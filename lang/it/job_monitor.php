@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -129,6 +130,8 @@ return array (
 =======
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
 return [
     'navigation' => [
         'name' => 'Monitor Jobs',
@@ -227,6 +230,9 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)

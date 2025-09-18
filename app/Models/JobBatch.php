@@ -45,11 +45,14 @@ use Illuminate\Support\Collection;
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperJobBatch
 =======
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
  * @mixin \Eloquent
  */
 class JobBatch extends BaseModel

@@ -14,6 +14,7 @@ class ListSchedules extends XotBaseListRecords
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
@@ -25,6 +26,10 @@ class ListSchedules extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> eaeb6531 (.)
         return [
             'id' => Tables\Columns\TextColumn::make('id')
                 ->numeric()

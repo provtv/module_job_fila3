@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament::modal on-submit="save" :content-padding="false">
 =======
 <x-filament::modal on-submit="save" :content-padding="false">
@@ -7,6 +8,9 @@ lament::modal on-submit="save" :content-padding="false">
 =======
 <x-filament::modal on-submit="save" :content-padding="false">
 >>>>>>> 2e199498 (.)
+=======
+<x-filament::modal on-submit="save" :content-padding="false">
+>>>>>>> eaeb6531 (.)
     <x-slot name="title">Add Schedule</x-slot>
 
     <!-- No padding will be applied because the component attribute "content-padding" is set to false -->

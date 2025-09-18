@@ -33,6 +33,7 @@ class ScheduleRequest extends FormRequest
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function attributes(): void {
 =======
     public function attributes()
@@ -42,6 +43,10 @@ class ScheduleRequest extends FormRequest
     public function attributes()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function attributes()
+    {
+>>>>>>> eaeb6531 (.)
         return [
             'command' => mb_strtolower(trans('schedule::schedule.fields.command')),
             'arguments' => mb_strtolower(trans('schedule::schedule.fields.arguments')),
@@ -50,6 +55,7 @@ class ScheduleRequest extends FormRequest
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     public function messages(): void {
@@ -61,6 +67,10 @@ class ScheduleRequest extends FormRequest
     public function messages()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function messages()
+    {
+>>>>>>> eaeb6531 (.)
         return [
             'groups.regex' => trans('schedule::schedule.validation.regex'),
             'expression.cron' => trans('schedule::schedule.validation.cron'),

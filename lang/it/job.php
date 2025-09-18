@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -51,6 +52,11 @@ return [
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
 >>>>>>> 2e199498 (.)
+=======
+return [
+    'pages' => 'Pagine',
+    'widgets' => 'Widgets',
+>>>>>>> eaeb6531 (.)
     'navigation' => [
         'name' => 'Job',
         'plural' => 'Jobs',
@@ -58,6 +64,7 @@ return [
             'name' => 'Jobs',
             'description' => 'Gestione dei processi in background',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'label' => 'Jobs',
@@ -408,6 +415,8 @@ return [
 =======
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
         'label' => 'jobs',
         'sort' => 30,
         'icon' => 'job.navigation',
@@ -500,15 +509,19 @@ return [
         'job_completed' => 'Job completato',
         'job_failed' => 'Job fallito',
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
     ],
     'statuses' => [
         'pending' => 'In Attesa',
         'processing' => 'In Elaborazione',
         'completed' => 'Completato',
         'failed' => 'Fallito',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'cancelled' => 'Annullato',
@@ -520,10 +533,14 @@ return [
 =======
         'stopped' => 'Fermato',
 >>>>>>> 2e199498 (.)
+=======
+        'stopped' => 'Fermato',
+>>>>>>> eaeb6531 (.)
     ],
     'types' => [
         'import' => 'Importazione',
         'export' => 'Esportazione',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         'email' => 'Email',
@@ -629,12 +646,17 @@ return [
 =======
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
         'process' => 'Elaborazione',
         'notification' => 'Notifica',
         'cleanup' => 'Pulizia',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
 ];

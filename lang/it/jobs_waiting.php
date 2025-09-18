@@ -2,6 +2,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -152,6 +153,8 @@ return [
 =======
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
 return [
     'navigation' => [
         'name' => 'Jobs in Attesa',
@@ -345,9 +348,12 @@ return [
         'high' => 'Alta',
         'urgent' => 'Urgente',
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
     ],
     'types' => [
         'default' => 'Default',

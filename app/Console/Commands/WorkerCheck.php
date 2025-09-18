@@ -38,6 +38,7 @@ class WorkerCheck extends Command
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
@@ -47,6 +48,10 @@ class WorkerCheck extends Command
     public function __construct()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function __construct()
+    {
+>>>>>>> eaeb6531 (.)
         parent::__construct();
     }
 

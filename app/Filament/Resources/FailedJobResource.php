@@ -21,11 +21,14 @@ class FailedJobResource extends XotBaseResource
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
 =======
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
         return [
             'uuid' => Forms\Components\TextInput::make('uuid')
                 ->disabled()

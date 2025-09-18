@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TYPE html>
 =======
 <!DOCTYPE html>
@@ -7,6 +8,9 @@ TYPE html>
 =======
 <!DOCTYPE html>
 >>>>>>> 2e199498 (.)
+=======
+<!DOCTYPE html>
+>>>>>>> eaeb6531 (.)
 <html lang="en">
     <head>
         <meta charset="utf-8">

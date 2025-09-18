@@ -11,6 +11,7 @@ namespace Modules\Job\Models;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * 
  *
@@ -19,6 +20,10 @@ namespace Modules\Job\Models;
  * 
  *
 >>>>>>> 2e199498 (.)
+=======
+ * 
+ *
+>>>>>>> eaeb6531 (.)
  * @method static \Modules\Job\Database\Factories\FailedImportRowFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|FailedImportRow newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|FailedImportRow newQuery()
@@ -43,11 +48,14 @@ namespace Modules\Job\Models;
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperFailedImportRow
 =======
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
  * @mixin \Eloquent
  */
 class FailedImportRow extends BaseModel

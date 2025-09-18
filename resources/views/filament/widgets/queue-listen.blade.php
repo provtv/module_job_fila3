@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament-widgets::widget>
 =======
 <x-filament-widgets::widget>
@@ -7,6 +8,9 @@ lament-widgets::widget>
 =======
 <x-filament-widgets::widget>
 >>>>>>> 2e199498 (.)
+=======
+<x-filament-widgets::widget>
+>>>>>>> eaeb6531 (.)
     <x-filament::section>
         {{-- Widget content --}}
 

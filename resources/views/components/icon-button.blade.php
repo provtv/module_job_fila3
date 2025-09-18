@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 s([
 =======
 @props([
@@ -7,6 +8,9 @@ s([
 =======
 @props([
 >>>>>>> 2e199498 (.)
+=======
+@props([
+>>>>>>> eaeb6531 (.)
     'color' => 'primary',
     'darkMode' => false,
     'disabled' => false,

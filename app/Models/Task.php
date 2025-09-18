@@ -82,6 +82,7 @@ use Webmozart\Assert\Assert;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Task whereUpdatedBy($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @mixin IdeHelperTask
 =======
@@ -90,6 +91,9 @@ use Webmozart\Assert\Assert;
 =======
  * @property-read \Modules\Broker\Models\Profile|null $creator
 >>>>>>> 2e199498 (.)
+=======
+ * @property-read \Modules\Broker\Models\Profile|null $creator
+>>>>>>> eaeb6531 (.)
  * @mixin \Eloquent
  */
 class Task extends BaseModel

@@ -20,6 +20,7 @@ class ScheduleService
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct()
@@ -29,6 +30,10 @@ class ScheduleService
     public function __construct()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function __construct()
+    {
+>>>>>>> eaeb6531 (.)
         Assert::string($modelClass = config('job::model'), '['.__LINE__.']['.class_basename($this).']');
         $this->model = app($modelClass);
     }
@@ -40,6 +45,7 @@ class ScheduleService
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getActives(): void {
 =======
     public function getActives()
@@ -49,6 +55,10 @@ class ScheduleService
     public function getActives()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function getActives()
+    {
+>>>>>>> eaeb6531 (.)
         if (config('job::cache.enabled')) {
             return $this->getFromCache();
         }

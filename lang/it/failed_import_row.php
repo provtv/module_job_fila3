@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -203,3 +204,6 @@ null
 =======
 null
 >>>>>>> 2e199498 (.)
+=======
+null
+>>>>>>> eaeb6531 (.)

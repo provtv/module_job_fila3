@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 lament::page>
 =======
 <x-filament::page>
@@ -7,6 +8,9 @@ lament::page>
 =======
 <x-filament::page>
 >>>>>>> 2e199498 (.)
+=======
+<x-filament::page>
+>>>>>>> eaeb6531 (.)
     <x-filament::section>
         <pre>
         {!! $out !!}

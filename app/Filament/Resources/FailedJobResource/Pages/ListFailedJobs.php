@@ -22,6 +22,7 @@ class ListFailedJobs extends XotBaseListRecords
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
@@ -33,6 +34,10 @@ class ListFailedJobs extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> eaeb6531 (.)
         return [
             'id' => TextColumn::make('id')
                 ->searchable()
@@ -63,6 +68,7 @@ class ListFailedJobs extends XotBaseListRecords
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Actions\Action>
      */
@@ -74,14 +80,19 @@ class ListFailedJobs extends XotBaseListRecords
 =======
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
     protected function getHeaderActions(): array
     {
         return [
             Action::make('retry_all')
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
                 ->requiresConfirmation()
                 ->action(
                     static function (): void {
@@ -95,6 +106,7 @@ class ListFailedJobs extends XotBaseListRecords
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'delete_all' => Action::make('delete_all')
 =======
             Action::make('delete_all')
@@ -102,6 +114,9 @@ class ListFailedJobs extends XotBaseListRecords
 =======
             Action::make('delete_all')
 >>>>>>> 2e199498 (.)
+=======
+            Action::make('delete_all')
+>>>>>>> eaeb6531 (.)
                 ->requiresConfirmation()
                 ->color('danger')
                 ->action(

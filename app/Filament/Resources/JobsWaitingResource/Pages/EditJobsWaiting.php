@@ -16,11 +16,14 @@ class EditJobsWaiting extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditR
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Actions\Action> */
 =======
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
         return [
             DeleteAction::make(),
         ];

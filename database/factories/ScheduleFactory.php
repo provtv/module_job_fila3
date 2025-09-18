@@ -26,6 +26,7 @@ class ScheduleFactory extends Factory
      */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function definition(): void {
 =======
     public function definition()
@@ -35,6 +36,10 @@ class ScheduleFactory extends Factory
     public function definition()
     {
 >>>>>>> 2e199498 (.)
+=======
+    public function definition()
+    {
+>>>>>>> eaeb6531 (.)
         return [
         ];
     }

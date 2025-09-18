@@ -14,6 +14,7 @@ use Filament\Actions\Exports\Models\Export as BaseExport;
 /**
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  * 
  *
@@ -22,6 +23,10 @@ use Filament\Actions\Exports\Models\Export as BaseExport;
  * 
  *
 >>>>>>> 2e199498 (.)
+=======
+ * 
+ *
+>>>>>>> eaeb6531 (.)
  * @method static \Modules\Job\Database\Factories\ExportFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Export newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Export newQuery()
@@ -64,11 +69,14 @@ use Filament\Actions\Exports\Models\Export as BaseExport;
  * @mixin \Eloquent
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperExport
 =======
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> eaeb6531 (.)
  * @mixin Eloquent
  */
 class Export extends BaseExport
