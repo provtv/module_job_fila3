@@ -35,6 +35,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/presenter.txt}
 ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/bad_practices.txt}
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Design Patterns and Architecture
 
 ## Clean Architecture
@@ -73,3 +74,5 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/bad_practices.txt}
 ```
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)

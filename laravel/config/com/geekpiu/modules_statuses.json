@@ -11,6 +11,10 @@
     "Job": true,
     "Limesurvey": true,
     "Activity": true,
+<<<<<<< HEAD
+=======
+    "Geo":true,
+>>>>>>> 688d0704 (first)
     "User": true,
     "Setting": true,
     "BarberShop": true,

@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 declare(strict_types=1);
+=======
+>>>>>>> 688d0704 (first)
 
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Password;
@@ -10,17 +13,24 @@ use Illuminate\Validation\Rule;
 use Livewire\Volt\Component;
 use Livewire\Attributes\Validate;
 use Livewire\Attributes\Locked;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Modules\Xot\Contracts\UserContract;
 use Illuminate\Support\Facades\Redirect;
+=======
+>>>>>>> 688d0704 (first)
 
 name('profile.edit');
 middleware(['auth', 'verified']);
 
 new class extends Component {
     #[Locked]
+<<<<<<< HEAD
     public ?User $user = null;
+=======
+    public ?Modules\Fixcity\Models\User $user = null;
+>>>>>>> 688d0704 (first)
 
     public string $name = '';
     public string $email = '';
@@ -33,9 +43,15 @@ new class extends Component {
 
     public function mount(): void
     {
+<<<<<<< HEAD
         $user = Auth::user();
         if (!$user instanceof User) {
             throw new \RuntimeException('Authenticated user is not a valid User');
+=======
+        $user = auth()->user();
+        if (!$user instanceof \Modules\Fixcity\Models\User) {
+            throw new \RuntimeException('Authenticated user is not a Fixcity User');
+>>>>>>> 688d0704 (first)
         }
 
         $this->user = $user;
@@ -50,6 +66,10 @@ new class extends Component {
             'email' => 'required|min:3|email|max:255|unique:users,email,' . $this->user->id . ',id',
         ]);
 
+<<<<<<< HEAD
+=======
+        // if the user hasn't changed their name or email and we also want to make, don't update and show error
+>>>>>>> 688d0704 (first)
         if (!$this->user) {
             return;
         }
@@ -59,7 +79,13 @@ new class extends Component {
             return;
         }
 
+<<<<<<< HEAD
         $this->user->fill(['email' => $this->email, 'name' => $this->name])->save();
+=======
+        if ($this->user) {
+            $this->user->fill(['email' => $this->email, 'name' => $this->name])->save();
+        }
+>>>>>>> 688d0704 (first)
 
         $this->dispatch('toast', message: 'Successfully updated profile.', data: ['position' => 'top-right', 'type' => 'success']);
     }
@@ -73,12 +99,20 @@ new class extends Component {
             return;
         }
 
+<<<<<<< HEAD
         $this->user->fill([
             'password' => Hash::make($this->new_password),
             'remember_token' => Str::random(60)
         ])->save();
 
         $this->dispatch('toast', message: 'Successfully updated password.', data: ['position' => 'top-right', 'type' => 'success']);
+=======
+        $this->dispatch('toast', message: 'Successfully updated password.', data: ['position' => 'top-right', 'type' => 'success']);
+        if ($this->user) {
+            $this->user->fill(['password' => Hash::make($this->new_password), 'remember_token' => Str::random(60)])->save();
+        }
+
+>>>>>>> 688d0704 (first)
         $this->reset(['current_password', 'new_password', 'new_password_confirmation']);
     }
 
@@ -87,16 +121,24 @@ new class extends Component {
         if (!$this->user || !Hash::check($this->delete_confirm_password, $this->user->password)) {
             $this->dispatch('toast', message: 'The Password you entered is incorrect', data: ['position' => 'top-right', 'type' => 'danger']);
             $this->reset(['delete_confirm_password']);
+<<<<<<< HEAD
             return redirect()->back();
         }
 
         $user = Auth::user();
+=======
+            return;
+        }
+
+        $user = auth()->user();
+>>>>>>> 688d0704 (first)
         if (!$user) {
             return redirect('/');
         }
 
         Auth::logout();
 
+<<<<<<< HEAD
         // Gestiamo tutti i possibili tipi di utente nel sistema
         if ($user instanceof \Modules\Fixcity\Models\User) {
             $user->delete();
@@ -105,6 +147,20 @@ new class extends Component {
         }
 
         return redirect('/');
+=======
+        if ($user instanceof \Modules\Fixcity\Models\User) {
+            $user->delete();
+        }
+
+        request()
+            ->session()
+            ->invalidate();
+        request()
+            ->session()
+            ->regenerateToken();
+
+        return Redirect::to('/');
+>>>>>>> 688d0704 (first)
     }
 };
 

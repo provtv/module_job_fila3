@@ -53,6 +53,10 @@ return [
             'root' => storage_path('app/public'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
+<<<<<<< HEAD
+=======
+            'throw' => true,
+>>>>>>> 688d0704 (first)
         ],
         'public_html' => [
             'driver' => 'local',
@@ -60,11 +64,19 @@ return [
             //'url' => url('/'),
             'url' => '/',
             'visibility' => 'public',
+<<<<<<< HEAD
+=======
+            'throw' => true,
+>>>>>>> 688d0704 (first)
         ],
         'photos' => [
             'driver' => 'local',
             'root' => public_path('/photos'),
             'visibility' => 'public',
+<<<<<<< HEAD
+=======
+            'throw' => true,
+>>>>>>> 688d0704 (first)
         ],
 
         'cache' => [
@@ -73,6 +85,10 @@ return [
             'root' => base_path('../cache'),
             //'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
+<<<<<<< HEAD
+=======
+            'throw' => true,
+>>>>>>> 688d0704 (first)
         ],
 
         's3' => [
@@ -89,6 +105,10 @@ return [
             'root' => public_path('/uploads/photos'),
             'url' => '/uploads/photos',
             'visibility' => 'public',
+<<<<<<< HEAD
+=======
+            'throw' => true,
+>>>>>>> 688d0704 (first)
         ],
     ],
 ];

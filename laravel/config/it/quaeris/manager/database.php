@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
 use Modules\Tenant\Services\TenantService;
 
 return [
@@ -73,14 +76,27 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+<<<<<<< HEAD
 
         'orbit' => [
             'driver' => 'sqlite',
+=======
+        'orbit' => [
+            'driver' => 'sqlite',
+            // "database" => Orbit::getDatabasePath(),
+            // "database" => storage_path('framework/cache/orbit/orbit.sqlite'),
+            // "database" => config('orbit.paths.cache') . DIRECTORY_SEPARATOR . 'orbit.sqlite',
+            // "database" => '/var/www/html/_bases/base_siram_idoteca_fila3/laravel/config/local/idoteca/orbit.sqlite',
+>>>>>>> 688d0704 (first)
             'database' => TenantService::filePath('orbit.sqlite'),
             'foreign_key_constraints' => false,
         ],
         'orbit_meta' => [
             'driver' => 'sqlite',
+<<<<<<< HEAD
+=======
+            // "database" => Orbit::getMetaDatabasePath(),
+>>>>>>> 688d0704 (first)
             'database' => storage_path('framework/cache/orbit/orbit_meta.sqlite'),
             'foreign_key_constraints' => false,
         ],

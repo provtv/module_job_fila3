@@ -1,8 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+return [
+
+>>>>>>> 688d0704 (first)
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -123,4 +128,8 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688d0704 (first)
 ];

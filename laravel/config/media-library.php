@@ -1,12 +1,22 @@
 <?php
 
+<<<<<<< HEAD
 return [
 
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> 688d0704 (first)
     /*
      * The disk on which to store added files and derived images by default. Choose
      * one or more of the disks you've configured in config/filesystems.php.
      */
+<<<<<<< HEAD
     'disk_name' => env('MEDIA_DISK', 'public'),
+=======
+    'disk_name' => config('media-library.disk_name', 'public'),
+>>>>>>> 688d0704 (first)
 
     /*
      * The maximum file size of an item in bytes.
@@ -24,7 +34,11 @@ return [
      * This queue will be used to generate derived and responsive images.
      * Leave empty to use the default queue.
      */
+<<<<<<< HEAD
     'queue_name' => '',
+=======
+    'queue_name' => env('MEDIA_QUEUE', ''),
+>>>>>>> 688d0704 (first)
 
     /*
      * By default all conversions will be performed on a queue.
@@ -32,9 +46,20 @@ return [
     'queue_conversions_by_default' => env('QUEUE_CONVERSIONS_BY_DEFAULT', true),
 
     /*
+<<<<<<< HEAD
      * The fully qualified class name of the media model.
      */
     //'media_model' => Spatie\MediaLibrary\MediaCollections\Models\Media::class,
+=======
+     * Should database transactions be run after database commits?
+     */
+    'queue_conversions_after_database_commit' => env('QUEUE_CONVERSIONS_AFTER_DB_COMMIT', true),
+
+    /*
+     * The fully qualified class name of the media model.
+     */
+    // 'media_model' => Spatie\MediaLibrary\MediaCollections\Models\Media::class,
+>>>>>>> 688d0704 (first)
     'media_model' => Modules\Media\Models\Media::class,
 
     /*
@@ -50,7 +75,11 @@ return [
      *
      * This model is only used in Media Library Pro (https://medialibrary.pro)
      */
+<<<<<<< HEAD
     //'temporary_upload_model' => Spatie\MediaLibraryPro\Models\TemporaryUpload::class,
+=======
+    // 'temporary_upload_model' => Spatie\MediaLibraryPro\Models\TemporaryUpload::class,
+>>>>>>> 688d0704 (first)
     'temporary_upload_model' => Modules\Media\Models\TemporaryUpload::class,
 
     /*
@@ -138,7 +167,11 @@ return [
             '-m 6', // for the slowest compression method in order to get the best compression.
             '-pass 10', // for maximizing the amount of analysis pass.
             '-mt', // multithreading for some speed improvements.
+<<<<<<< HEAD
             '-q 90', //quality factor that brings the least noticeable changes.
+=======
+            '-q 90', // quality factor that brings the least noticeable changes.
+>>>>>>> 688d0704 (first)
         ],
         Spatie\ImageOptimizer\Optimizers\Avifenc::class => [
             '-a cq-level=23', // constant quality level, lower values mean better quality and greater file size (0-63).
@@ -200,6 +233,16 @@ return [
      */
     'media_downloader' => Spatie\MediaLibrary\Downloaders\DefaultDownloader::class,
 
+<<<<<<< HEAD
+=======
+    /*
+     * When using the addMediaFromUrl method the SSL is verified by default.
+     * This is option disables SSL verification when downloading remote media.
+     * Please note that this is a security risk and should only be false in a local environment.
+     */
+    'media_downloader_ssl' => env('MEDIA_DOWNLOADER_SSL', true),
+
+>>>>>>> 688d0704 (first)
     'remote' => [
         /*
          * Any extra headers that should be included when uploading media to
@@ -261,4 +304,13 @@ return [
      * If you set this to `/my-subdir`, all your media will be stored in a `/my-subdir` directory.
      */
     'prefix' => env('MEDIA_PREFIX', ''),
+<<<<<<< HEAD
+=======
+
+    /*
+     * When forcing lazy loading, media will be loaded even if you don't eager load media and you have
+     * disabled lazy loading globally in the service provider.
+     */
+    'force_lazy_loading' => env('FORCE_MEDIA_LIBRARY_LAZY_LOADING', true),
+>>>>>>> 688d0704 (first)
 ];

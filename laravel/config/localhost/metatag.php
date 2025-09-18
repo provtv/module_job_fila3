@@ -20,8 +20,13 @@ return [
     'logo_footer_img' => 'xot::img/logo.png',
     'logo_alt' => 'Logo',
     'logo_header_dark' => 'xot::img/logo.png',
+<<<<<<< HEAD
     'logo_header' => 'blog::images/logo.svg',
     'logo_header_dark' => 'blog::images/logo-dark.svg',
+=======
+    'logo_header' => 'xot::img/logo.png',
+    'logo_header_dark' => 'xot::img/logo.png',
+>>>>>>> 688d0704 (first)
     'hide_megamenu' => false,
     'hero_type' => 'with_megamenu_bottom',
     'facebook_href' => 'aa',

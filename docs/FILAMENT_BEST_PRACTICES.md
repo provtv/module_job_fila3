@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Best Practices per Risorse Filament nel Modulo Job
 
 Questo documento descrive le best practices da seguire quando si creano o modificano risorse Filament nel modulo Job.
@@ -80,6 +81,8 @@ Questo pattern è stato corretto nelle seguenti risorse:
 - `ExportResource`
 - `FailedImportRowResource` 
 =======
+=======
+>>>>>>> 688d0704 (first)
 # Best Practices per Risorse Filament in Laraxot
 
 Questo documento riassume le migliori pratiche per la creazione e gestione delle risorse Filament all'interno dell'ecosistema Laraxot. Seguire queste linee guida garantirà compatibilità e coerenza in tutto il progetto.
@@ -262,4 +265,7 @@ Questo documento riassume le migliori pratiche per la creazione e gestione delle
    - **Indirizzo e contatti**: via, cap, regione_id, provincia_id, etc.
    - **Dati bancari**: iban, intestatario, banca, filiale
    - **Modalità di ricezione**: Lista di modalità selezionabili
+<<<<<<< HEAD
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)

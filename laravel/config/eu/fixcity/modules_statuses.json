@@ -9,11 +9,22 @@
     "Chart": true,
     "Lang": true,
     "Job": true,
+<<<<<<< HEAD
     "Limesurvey": true,
     "Activity": true,
     "User": true,
     "Setting": true,
     "Rating": true,
+=======
+    "Seo": true,
+    "AI": true,
+    "Limesurvey": true,
+    "Activity": true,
+    "Geo": true,
+    "User": true,
+    "Setting": true,
+    "BarberShop": true,
+>>>>>>> 688d0704 (first)
     "RealEstate": true,
     "Blog": true,
     "Booking": true,
@@ -23,5 +34,12 @@
     "Media": true,
     "Predict": true,
     "Shop": true,
+<<<<<<< HEAD
     "Ticket": true
+=======
+    "Ticket": true,
+    "Rating": true,
+    "Fixcity": true,
+    "Comment": true
+>>>>>>> 688d0704 (first)
 }

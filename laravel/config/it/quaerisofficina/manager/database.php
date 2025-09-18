@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Tenant\Services\TenantService;
 
+=======
+>>>>>>> 688d0704 (first)
 return [
     'connections' => [
         'mysql' => [
@@ -13,7 +16,11 @@ return [
             'database' => env('DB_DATABASE', 'forge38'),
             'username' => env('DB_USERNAME', 'forge39'),
             'password' => env('DB_PASSWORD', ''),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
@@ -25,7 +32,11 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'database' => env('DB_DATABASE_USER', 'forge40'),
             'username' => env('DB_USERNAME', 'forge41'),
             'password' => env('DB_PASSWORD', ''),
@@ -43,7 +54,11 @@ return [
             'database' => env('DB_DATABASE', 'forge42'),
             'username' => env('DB_USERNAME', 'forge43'),
             'password' => env('DB_PASSWORD', ''),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
@@ -58,7 +73,11 @@ return [
             'database' => env('DB_DATABASE', 'forge44'),
             'username' => env('DB_USERNAME', 'forge45'),
             'password' => env('DB_PASSWORD', ''),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
@@ -72,7 +91,11 @@ return [
             'database' => env('DB_DATABASE', 'forge46'),
             'username' => env('DB_USERNAME', 'forge47'),
             'password' => env('DB_PASSWORD', ''),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => 'liveuser_',
@@ -83,7 +106,11 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
+<<<<<<< HEAD
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+=======
+            //'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+>>>>>>> 688d0704 (first)
             'database' => env('DB_DATABASE_LIMESURVEY', 'forge48'),
             'username' => env('DB_USERNAME_LIMESURVEY', 'forge49'),
             'password' => env('DB_PASSWORD_LIMESURVEY', ''),
@@ -101,6 +128,7 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+<<<<<<< HEAD
 
         'orbit' => [
             'driver' => 'sqlite',
@@ -113,4 +141,7 @@ return [
             'foreign_key_constraints' => false,
         ],
     ], // end connections
+=======
+    ], //end connections
+>>>>>>> 688d0704 (first)
 ];

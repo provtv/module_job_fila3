@@ -1,12 +1,18 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 688d0704 (first)
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Folio\Folio;
+<<<<<<< HEAD
 use Modules\Xot\Datas\XotData;
+=======
+>>>>>>> 688d0704 (first)
 
 class FolioServiceProvider extends ServiceProvider
 {
@@ -15,6 +21,10 @@ class FolioServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+<<<<<<< HEAD
+=======
+        //
+>>>>>>> 688d0704 (first)
     }
 
     /**
@@ -22,12 +32,16 @@ class FolioServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+<<<<<<< HEAD
         /*
+=======
+>>>>>>> 688d0704 (first)
         Folio::path(resource_path('views/pages'))->middleware([
             '*' => [
                 //
             ],
         ]);
+<<<<<<< HEAD
         */
         // -- forse middleware per lang
         // -- spostato in cmsserviceprovider
@@ -40,5 +54,7 @@ class FolioServiceProvider extends ServiceProvider
                 ],
             ]);
         */
+=======
+>>>>>>> 688d0704 (first)
     }
 }

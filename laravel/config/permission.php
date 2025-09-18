@@ -50,7 +50,11 @@ return [
          * basic default value but you may easily change it to any table you like.
          */
 
+<<<<<<< HEAD
         'model_has_permissions' => 'model_has_permission',
+=======
+        'model_has_permissions' => 'model_has_permissions',
+>>>>>>> 688d0704 (first)
 
         /*
          * When using the "HasRoles" trait from this package, we need to know which
@@ -58,7 +62,11 @@ return [
          * basic default value but you may easily change it to any table you like.
          */
 
+<<<<<<< HEAD
         'model_has_roles' => 'model_has_role',
+=======
+        'model_has_roles' => 'model_has_roles',
+>>>>>>> 688d0704 (first)
 
         /*
          * When using the "HasRoles" trait from this package, we need to know which
@@ -66,7 +74,11 @@ return [
          * basic default value but you may easily change it to any table you like.
          */
 
+<<<<<<< HEAD
         'role_has_permissions' => 'role_has_permission',
+=======
+        'role_has_permissions' => 'role_has_permissions',
+>>>>>>> 688d0704 (first)
     ],
 
     'column_names' => [
@@ -118,7 +130,11 @@ return [
      * (view the latest version of this package's migration file)
      */
 
+<<<<<<< HEAD
     'teams' => true,
+=======
+    'teams' => false,
+>>>>>>> 688d0704 (first)
 
     /*
      * Passport Client Credentials Grant

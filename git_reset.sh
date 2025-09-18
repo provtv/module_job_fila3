@@ -12,3 +12,7 @@ git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
         
         git submodule add -f $url $path  
     done
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 688d0704 (first)

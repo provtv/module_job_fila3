@@ -89,10 +89,14 @@ edit file composer.json
     "require": {
         "php": "^8.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "filament/filament": "^3.2",
 =======
         "filament/filament": "^3.3",
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+        "filament/filament": "^3.2",
+>>>>>>> 688d0704 (first)
         "laravel/framework": "^11.9",
         "nwidart/laravel-modules": "^11.0"
     },

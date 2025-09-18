@@ -19,7 +19,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'default' => env('LOG_CHANNEL', 'stack'),
+=======
+    'default' => config('logging.default', 'stack'),
+>>>>>>> 688d0704 (first)
 
     /*
     |--------------------------------------------------------------------------
@@ -46,7 +50,11 @@ return [
     | utilizes the Monolog PHP logging library, which includes a variety
     | of powerful log handlers and formatters that you're free to use.
     |
+<<<<<<< HEAD
     | Available Drivers: "single", "daily", "slack", "syslog",
+=======
+    | Available drivers: "single", "daily", "slack", "syslog",
+>>>>>>> 688d0704 (first)
     |                    "errorlog", "monolog", "custom", "stack"
     |
     */

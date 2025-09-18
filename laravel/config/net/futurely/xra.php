@@ -7,7 +7,11 @@ return [
     'enable_ads' => '1',
     'main_module' => 'Blog',
     'primary_lang' => 'it',
+<<<<<<< HEAD
     'pub_theme' => 'TwentyOne',
+=======
+    'pub_theme' => 'Sixteen',
+>>>>>>> 688d0704 (first)
     'search_action' => 'it/videos',
     'show_trans_key' => false,
     'disable_admin_dynamic_route' => true,

@@ -1,5 +1,9 @@
 {
     "Activity": true,
+<<<<<<< HEAD
+=======
+    "Geo": true,
+>>>>>>> 688d0704 (first)
     "Blog": true,
     "Cms": true,
     "Gdpr": true,
@@ -14,6 +18,14 @@
     "Xot": true,
     "Lang": true,
     "Chart": true,
+<<<<<<< HEAD
     "Ticket": true,
     "Predict": true
 }
+=======
+    "Fixcity": true,
+    "Ticket": true,
+    "AI": true,
+    "Comment": true
+}
+>>>>>>> 688d0704 (first)

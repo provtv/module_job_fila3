@@ -15,12 +15,21 @@ return [
     'nome_regione' => '',
     'nome_comune' => '',
     'site_title' => '',
+<<<<<<< HEAD
     'logo_img' => 'predict::img/logo-ft.svg',
     'logo_square' => 'predict::img/logo-ft.svg',
     'logo_footer_img' => 'predict::img/logo-ft.svg',
     'logo_alt' => 'Logo',
     'logo_header_dark' => 'predict::img/logo-ft.svg',
 'logo_header' => 'predict::img/logo-ft.svg',
+=======
+    'logo_img' => 'blog::images/logo.svg',
+    'logo_square' => 'blog::images/logo.svg',
+    'logo_footer_img' => 'blog::images/logo.svg',
+    'logo_alt' => 'Logo',
+    'logo_header_dark' => 'blog::images/logo.svg',
+'logo_header' => 'blog::images/logo.svg',
+>>>>>>> 688d0704 (first)
     'hide_megamenu' => false,
     'hero_type' => 'with_megamenu_bottom',
     'facebook_href' => 'aa',

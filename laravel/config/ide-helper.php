@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -9,6 +10,16 @@ return [
     |--------------------------------------------------------------------------
     |
     | The default filename
+=======
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Filename
+    |--------------------------------------------------------------------------
+    |
+    | The default filename.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -19,7 +30,11 @@ return [
     | Models filename
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | The default filename for the models helper file
+=======
+    | The default filename for the models helper file.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -27,7 +42,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Where to write the PhpStorm specific meta file
+=======
+    | PhpStorm meta filename
+>>>>>>> 688d0704 (first)
     |--------------------------------------------------------------------------
     |
     | PhpStorm also supports the directory `.phpstorm.meta.php/` with arbitrary
@@ -42,7 +61,11 @@ return [
     | Fluent helpers
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | Set to true to generate commonly used Fluent methods
+=======
+    | Set to true to generate commonly used Fluent methods.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -50,7 +73,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Factory Builders
+=======
+    | Factory builders
+>>>>>>> 688d0704 (first)
     |--------------------------------------------------------------------------
     |
     | Set to true to generate factory generators for better factory()
@@ -64,10 +91,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Write Model Magic methods
     |--------------------------------------------------------------------------
     |
     | Set to false to disable write magic methods of model
+=======
+    | Write model magic methods
+    |--------------------------------------------------------------------------
+    |
+    | Set to false to disable write magic methods of model.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -75,10 +109,17 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Write Model External Eloquent Builder methods
     |--------------------------------------------------------------------------
     |
     | Set to false to disable write external eloquent builder methods
+=======
+    | Write model external Eloquent builder methods
+    |--------------------------------------------------------------------------
+    |
+    | Set to false to disable write external Eloquent builder methods.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -86,7 +127,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Write Model relation count properties
+=======
+    | Write model relation count properties
+>>>>>>> 688d0704 (first)
     |--------------------------------------------------------------------------
     |
     | Set to false to disable writing of relation count properties to model DocBlocks.
@@ -97,11 +142,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Write Eloquent Model Mixins
     |--------------------------------------------------------------------------
     |
     | This will add the necessary DocBlock mixins to the model class
     | contained in the Laravel Framework. This helps the IDE with
+=======
+    | Write Eloquent model mixins
+    |--------------------------------------------------------------------------
+    |
+    | This will add the necessary DocBlock mixins to the model class
+    | contained in the Laravel framework. This helps the IDE with
+>>>>>>> 688d0704 (first)
     | auto-completion.
     |
     | Please be aware that this setting changes a file within the /vendor directory.
@@ -123,7 +176,11 @@ return [
     'include_helpers' => false,
 
     'helper_files' => [
+<<<<<<< HEAD
         base_path().'/vendor/laravel/framework/src/Illuminate/Support/helpers.php',
+=======
+        base_path() . '/vendor/laravel/framework/src/Illuminate/Support/helpers.php',
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -135,11 +192,16 @@ return [
     | for models.
     |
     | glob patterns are supported to easier reach models in sub-directories,
+<<<<<<< HEAD
     | e.g. `app/Services/* /Models` (without the space)
+=======
+    | e.g. `app/Services/* /Models` (without the space).
+>>>>>>> 688d0704 (first)
     |
     */
 
     'model_locations' => [
+<<<<<<< HEAD
         // 'app',
         'Modules/Activity/Models',
         'Modules/Blog/Models',
@@ -157,6 +219,9 @@ return [
         'Modules/UI/Models',
         'Modules/User/Models',
         'Modules/Xot/Models',
+=======
+        'app',
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -169,6 +234,10 @@ return [
     */
 
     'ignored_models' => [
+<<<<<<< HEAD
+=======
+        // App\MyModel::class,
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -176,7 +245,11 @@ return [
     | Models hooks
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | Define which hook classes you want to run for models to add custom information
+=======
+    | Define which hook classes you want to run for models to add custom information.
+>>>>>>> 688d0704 (first)
     |
     | Hooks should implement Barryvdh\LaravelIdeHelper\Contracts\ModelHookInterface.
     |
@@ -191,7 +264,11 @@ return [
     | Extra classes
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | These implementations are not really extended, but called with magic functions
+=======
+    | These implementations are not really extended, but called with magic functions.
+>>>>>>> 688d0704 (first)
     |
     */
 
@@ -213,6 +290,10 @@ return [
     */
 
     'interfaces' => [
+<<<<<<< HEAD
+=======
+        // App\MyInterface::class => App\MyImplementation::class,
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -243,7 +324,11 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Property Casts
+=======
+    | Property casts
+>>>>>>> 688d0704 (first)
     |--------------------------------------------------------------------------
     |
     | Cast the given "real type" to the given "type".
@@ -270,9 +355,15 @@ return [
     | Force FQN usage
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | Use the fully qualified (class) name in docBlock,
     | event if class exists in a given file
     | or there is an import (use className) of a given class
+=======
+    | Use the fully qualified (class) name in DocBlocks,
+    | even if the class exists in the same namespace
+    | or there is an import (use className) of the class.
+>>>>>>> 688d0704 (first)
     |
     */
     'force_fqn' => false,
@@ -294,8 +385,13 @@ return [
     |--------------------------------------------------------------------------
     |
     | Sometimes it's needed to create custom relation types. The key of the array
+<<<<<<< HEAD
     | is the Relationship Method name. The value of the array is the canonical class
     | name of the Relationship, e.g. `'relationName' => RelationShipClass::class`.
+=======
+    | is the relationship method name. The value of the array is the fully-qualified
+    | class name of the relationship, e.g. `'relationName' => RelationShipClass::class`.
+>>>>>>> 688d0704 (first)
     |
     */
     'additional_relation_types' => [],
@@ -325,4 +421,8 @@ return [
     'post_migrate' => [
         // 'ide-helper:models --nowrite',
     ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688d0704 (first)
 ];

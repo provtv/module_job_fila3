@@ -23,7 +23,11 @@ return [
      * You can specify an auth driver here that gets user models.
      * If this is null we'll use the current Laravel auth driver.
      */
+<<<<<<< HEAD
     'default_auth_driver' => null,
+=======
+    'default_auth_driver' => config('activitylog.default_auth_driver'),
+>>>>>>> 688d0704 (first)
 
     /*
      * If set to true, the subject returns soft deleted models.
@@ -41,7 +45,11 @@ return [
      * This is the name of the table that will be created by the migration and
      * used by the Activity model shipped with this package.
      */
+<<<<<<< HEAD
     'table_name' => 'activity_log',
+=======
+    'table_name' => env('ACTIVITY_LOGGER_TABLE_NAME', 'activity_log'),
+>>>>>>> 688d0704 (first)
 
     /*
      * This is the database connection that will be used by the migration and

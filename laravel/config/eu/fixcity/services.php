@@ -29,4 +29,12 @@ return [
     'newsapi' => [
         'app_key' => env('NEWSAPI_APP_KEY'),
     ],
+<<<<<<< HEAD
+=======
+    'telegram-bot-api' => [
+        'token' => env('TELEGRAM_BOT_TOKEN', 'YOUR BOT TOKEN HERE'),
+        'bot_url' => env('TELEGRAM_BOT_URL'),
+        'webhook' => env('TELEGRAM_BOT_WEBHOOK'),
+    ],
+>>>>>>> 688d0704 (first)
 ];

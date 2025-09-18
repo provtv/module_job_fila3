@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 //     ->name('profile');
 
 // require __DIR__.'/auth.php';
+=======
+>>>>>>> 688d0704 (first)

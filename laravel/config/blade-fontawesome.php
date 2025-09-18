@@ -106,7 +106,11 @@ return [
 
     'sharp-light' => [
 
+<<<<<<< HEAD
         'prefix' => 'fal-sharp',
+=======
+        'prefix' => 'fal:sharp',
+>>>>>>> 688d0704 (first)
 
         'fallback' => '',
 
@@ -121,7 +125,11 @@ return [
 
     'sharp-regular' => [
 
+<<<<<<< HEAD
         'prefix' => 'far-sharp',
+=======
+        'prefix' => 'far:sharp',
+>>>>>>> 688d0704 (first)
 
         'fallback' => '',
 
@@ -136,7 +144,26 @@ return [
 
     'sharp-solid' => [
 
+<<<<<<< HEAD
         'prefix' => 'fas-sharp',
+=======
+        'prefix' => 'fas:sharp',
+
+        'fallback' => '',
+
+        'class' => '',
+
+        'attributes' => [
+            // 'width' => 50,
+            // 'height' => 50,
+        ],
+
+    ],
+
+    'sharp-duotone-solid' => [
+
+        'prefix' => 'fad:sharp',
+>>>>>>> 688d0704 (first)
 
         'fallback' => '',
 
@@ -151,7 +178,11 @@ return [
 
     'sharp-thin' => [
 
+<<<<<<< HEAD
         'prefix' => 'fat-sharp',
+=======
+        'prefix' => 'fat:sharp',
+>>>>>>> 688d0704 (first)
 
         'fallback' => '',
 

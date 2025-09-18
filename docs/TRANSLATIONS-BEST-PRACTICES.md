@@ -293,6 +293,7 @@ Tables\Columns\TextColumn::make('nome')
     ->label('Nome Utente')
 ```
 
+<<<<<<< HEAD
 ### 1.1 Non utilizzare mai ->label() in getInfolistSchema()
 
 Questa regola si applica anche al metodo `getInfolistSchema()`. Non bisogna mai utilizzare il metodo `->label()` nei componenti di Infolist:
@@ -325,6 +326,8 @@ public function getInfolistSchema(): array
 
 Il `LangServiceProvider` gestisce automaticamente l'etichettatura di tutti i componenti attraverso il sistema di traduzione. L'uso di `->label()` interferisce con questo meccanismo automatico e può portare a incoerenze nell'interfaccia utente.
 
+=======
+>>>>>>> 688d0704 (first)
 ### 2. Utilizzo in altri contesti
 
 Per altri contesti, utilizzare la funzione `trans()` o la direttiva `@lang` con i percorsi completi:

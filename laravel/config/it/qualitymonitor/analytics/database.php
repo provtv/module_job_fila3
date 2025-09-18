@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Modules\Tenant\Services\TenantService;
 
+=======
+>>>>>>> 688d0704 (first)
 return [
     'connections' => [
         'mysql' => [
@@ -117,6 +120,7 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+<<<<<<< HEAD
 
         'orbit' => [
             'driver' => 'sqlite',
@@ -128,5 +132,7 @@ return [
             'database' => storage_path('framework/cache/orbit/orbit_meta.sqlite'),
             'foreign_key_constraints' => false,
         ],
+=======
+>>>>>>> 688d0704 (first)
     ], // end connections
 ];

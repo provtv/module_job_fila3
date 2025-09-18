@@ -1,8 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+return [
+
+>>>>>>> 688d0704 (first)
     /*
     |--------------------------------------------------------------------------
     | Broadcasting
@@ -16,6 +21,10 @@ return [
     */
 
     'broadcasting' => [
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688d0704 (first)
         // 'echo' => [
         //     'broadcaster' => 'pusher',
         //     'key' => env('VITE_PUSHER_APP_KEY'),
@@ -23,11 +32,19 @@ return [
         //     'wsHost' => env('VITE_PUSHER_HOST'),
         //     'wsPort' => env('VITE_PUSHER_PORT'),
         //     'wssPort' => env('VITE_PUSHER_PORT'),
+<<<<<<< HEAD
         //     'authEndpoint' => '/api/v1/broadcasting/auth',
+=======
+        //     'authEndpoint' => '/broadcasting/auth',
+>>>>>>> 688d0704 (first)
         //     'disableStats' => true,
         //     'encrypted' => true,
         //     'forceTLS' => true,
         // ],
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -84,4 +101,8 @@ return [
     */
 
     'livewire_loading_delay' => 'default',
+<<<<<<< HEAD
+=======
+
+>>>>>>> 688d0704 (first)
 ];

@@ -15,12 +15,22 @@ return [
     'nome_regione' => '',
     'nome_comune' => '',
     'site_title' => '',
+<<<<<<< HEAD
     'logo_img' => 'xot::img/logo.png',
     'logo_square' => 'xot::img/logo.png',
     'logo_footer_img' => 'xot::img/logo.png',
     'logo_alt' => 'Logo',
     'logo_header' => 'xot::img/logo.png',
 	'logo_header_dark' => 'xot::img/logo.png',
+=======
+    'logo_height'=>'2em',
+    'logo_img' => 'fixcity::images/logo.svg',
+    'logo_square' => 'fixcity::images/logo.svg',
+    'logo_footer_img' => 'fixcity::images/logo.svg',
+    'logo_alt' => 'Logo',
+    'logo_header_dark' => 'fixcity::images/logo.svg',
+    'logo_header' => 'fixcity::images/logo.svg',
+>>>>>>> 688d0704 (first)
     'hide_megamenu' => false,
     'hero_type' => 'with_megamenu_bottom',
     'facebook_href' => 'aa',

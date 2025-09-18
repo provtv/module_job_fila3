@@ -15,8 +15,13 @@ return [
     */
 
     'defaults' => [
+<<<<<<< HEAD
         'guard' => env('AUTH_GUARD', 'web'),
         'passwords' => env('AUTH_PASSWORD_BROKER', 'users'),
+=======
+        'guard' => config('auth.defaults.guard', 'web'),
+        'passwords' => 'users',
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -63,7 +68,11 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+<<<<<<< HEAD
             'model' => env('AUTH_MODEL', Modules\User\Models\User::class),
+=======
+            'model' => env('AUTH_MODEL', App\Models\User::class),
+>>>>>>> 688d0704 (first)
         ],
 
         // 'users' => [

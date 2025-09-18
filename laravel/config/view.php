@@ -1,7 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 return [
 
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> 688d0704 (first)
     /*
     |--------------------------------------------------------------------------
     | View Storage Paths
@@ -15,6 +21,10 @@ return [
 
     'paths' => [
         resource_path('views'),
+<<<<<<< HEAD
+=======
+        base_path('resources/views'),
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -32,5 +42,8 @@ return [
         'VIEW_COMPILED_PATH',
         realpath(storage_path('framework/views'))
     ),
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
 ];

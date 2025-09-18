@@ -1,8 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+return [
+
+>>>>>>> 688d0704 (first)
     /*
      |--------------------------------------------------------------------------
      | Debugbar Settings
@@ -16,6 +21,10 @@ return [
      */
 
     'enabled' => env('DEBUGBAR_ENABLED', null),
+<<<<<<< HEAD
+=======
+    'hide_empty_tabs' => false, // Hide tabs until they have content
+>>>>>>> 688d0704 (first)
     'except' => [
         'telescope*',
         'horizon*',
@@ -38,6 +47,7 @@ return [
      | Leaving it to null will allow localhost only.
      */
     'storage' => [
+<<<<<<< HEAD
         'enabled' => true,
         'open' => env('DEBUGBAR_OPEN_STORAGE'), // bool/callback.
         'driver' => 'file', // redis, file, pdo, socket, custom
@@ -46,6 +56,16 @@ return [
         'provider' => '', // Instance of StorageInterface for custom driver
         'hostname' => '127.0.0.1', // Hostname to use with the "socket" driver
         'port' => 2304, // Port to use with the "socket" driver
+=======
+        'enabled'    => true,
+        'open'       => env('DEBUGBAR_OPEN_STORAGE'), // bool/callback.
+        'driver'     => 'file', // redis, file, pdo, socket, custom
+        'path'       => storage_path('debugbar'), // For file driver
+        'connection' => null,   // Leave null for default connection (Redis/PDO)
+        'provider'   => '', // Instance of StorageInterface for custom driver
+        'hostname'   => '127.0.0.1', // Hostname to use with the "socket" driver
+        'port'       => 2304, // Port to use with the "socket" driver
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -160,6 +180,7 @@ return [
      */
 
     'collectors' => [
+<<<<<<< HEAD
         'phpinfo' => true,  // Php version
         'messages' => true,  // Messages
         'time' => true,  // Time Datalogger
@@ -184,6 +205,33 @@ return [
         'models' => true,  // Display models
         'livewire' => true,  // Display Livewire (when available)
         'jobs' => false, // Display dispatched jobs
+=======
+        'phpinfo'         => true,  // Php version
+        'messages'        => true,  // Messages
+        'time'            => true,  // Time Datalogger
+        'memory'          => true,  // Memory usage
+        'exceptions'      => true,  // Exception displayer
+        'log'             => true,  // Logs from Monolog (merged in messages if enabled)
+        'db'              => true,  // Show database (PDO) queries and bindings
+        'views'           => true,  // Views with their data
+        'route'           => true,  // Current route information
+        'auth'            => false, // Display Laravel authentication status
+        'gate'            => true,  // Display Laravel Gate checks
+        'session'         => true,  // Display session data
+        'symfony_request' => true,  // Only one can be enabled..
+        'mail'            => true,  // Catch mail messages
+        'laravel'         => false, // Laravel version and environment
+        'events'          => false, // All events fired
+        'default_request' => false, // Regular or special Symfony request logger
+        'logs'            => false, // Add the latest log messages
+        'files'           => false, // Show the included files
+        'config'          => false, // Display config settings
+        'cache'           => false, // Display cache events
+        'models'          => true,  // Display models
+        'livewire'        => true,  // Display Livewire (when available)
+        'jobs'            => false, // Display dispatched jobs
+        'pennant'         => false, // Display Pennant feature flags
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -212,6 +260,7 @@ return [
             'show_guards' => true, // Show the guards that are used
         ],
         'db' => [
+<<<<<<< HEAD
             'with_params' => true,   // Render SQL with the parameters substituted
             'backtrace' => true,   // Use a backtrace to find the origin of the query in your files.
             'backtrace_exclude_paths' => [],   // Paths to exclude from backtrace. (in addition to defaults)
@@ -227,6 +276,25 @@ return [
             'memory_usage' => false,   // Show queries memory usage
             'soft_limit' => 100,      // After the soft limit, no parameters/backtrace are captured
             'hard_limit' => 500,      // After the hard limit, queries are ignored
+=======
+            'with_params'       => true,   // Render SQL with the parameters substituted
+            'exclude_paths'     => [       // Paths to exclude entirely from the collector
+//                'vendor/laravel/framework/src/Illuminate/Session', // Exclude sessions queries
+            ],
+            'backtrace'         => true,   // Use a backtrace to find the origin of the query in your files.
+            'backtrace_exclude_paths' => [],   // Paths to exclude from backtrace. (in addition to defaults)
+            'timeline'          => false,  // Add the queries to the timeline
+            'duration_background'  => true,   // Show shaded background on each query relative to how long it took to execute.
+            'explain' => [                 // Show EXPLAIN output on queries
+                'enabled' => false,
+            ],
+            'hints'             => false,   // Show hints for common mistakes
+            'show_copy'         => true,    // Show copy button next to the query,
+            'slow_threshold'    => false,   // Only track queries that last longer than this time in ms
+            'memory_usage'      => false,   // Show queries memory usage
+            'soft_limit'       => 100,      // After the soft limit, no parameters/backtrace are captured
+            'hard_limit'       => 500,      // After the hard limit, queries are ignored
+>>>>>>> 688d0704 (first)
         ],
         'mail' => [
             'timeline' => false,  // Add mails to the timeline
@@ -234,10 +302,17 @@ return [
         ],
         'views' => [
             'timeline' => false,    // Add the views to the timeline (Experimental)
+<<<<<<< HEAD
             'data' => false,        // true for all data, 'keys' for only names, false for no parameters.
             'group' => 50,          // Group duplicate views. Pass value to auto-group, or true/false to force
             'exclude_paths' => [    // Add the paths which you don't want to appear in the views
                 'vendor/filament',   // Exclude Filament components by default
+=======
+            'data' => false,        //true for all data, 'keys' for only names, false for no parameters.
+            'group' => 50,          // Group duplicate views. Pass value to auto-group, or true/false to force
+            'exclude_paths' => [    // Add the paths which you don't want to appear in the views
+                'vendor/filament'   // Exclude Filament components by default
+>>>>>>> 688d0704 (first)
             ],
         ],
         'route' => [

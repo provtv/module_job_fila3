@@ -39,6 +39,7 @@ return [
             ]) : [],
         ],
 
+<<<<<<< HEAD
         'liveuser_general' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
@@ -54,6 +55,8 @@ return [
             'engine' => null,
         ],
 
+=======
+>>>>>>> 688d0704 (first)
         'user' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
@@ -69,8 +72,11 @@ return [
             'engine' => null,
         ],
 
+<<<<<<< HEAD
        
 
+=======
+>>>>>>> 688d0704 (first)
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
@@ -78,7 +84,10 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> 688d0704 (first)
     ], // end connections
 ];

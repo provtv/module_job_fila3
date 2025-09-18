@@ -11,8 +11,12 @@ return [
     /*
      * The fully qualified class name of the tag model.
      */
+<<<<<<< HEAD
     // 'tag_model' => Spatie\Tags\Tag::class,
     'tag_model' => Modules\Blog\Models\Tag::class,
+=======
+    'tag_model' => Spatie\Tags\Tag::class,
+>>>>>>> 688d0704 (first)
 
     /*
      * The name of the table associated with the taggable morph relation.

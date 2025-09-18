@@ -1,8 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
+=======
+return [
+
+>>>>>>> 688d0704 (first)
     /*
     |---------------------------------------------------------------------------
     | Class Namespace
@@ -27,8 +32,12 @@ return [
     |
     */
 
+<<<<<<< HEAD
     // 'view_path' => resource_path('views/livewire'),
     'view_path' => base_path('Themes/TwentyOne/Resources/views/livewire'),
+=======
+    'view_path' => resource_path('views/livewire'),
+>>>>>>> 688d0704 (first)
 
     /*
     |---------------------------------------------------------------------------
@@ -76,6 +85,10 @@ return [
             'jpg', 'jpeg', 'mpga', 'webp', 'wma',
         ],
         'max_upload_time' => 5, // Max duration (in minutes) before an upload is invalidated...
+<<<<<<< HEAD
+=======
+        'cleanup' => true, // Should cleanup temporary uploads older than 24 hrs...
+>>>>>>> 688d0704 (first)
     ],
 
     /*

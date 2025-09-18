@@ -51,5 +51,8 @@ vendor
 .git-blame-ignore-revs
 vendor/
 build/
+<<<<<<< HEAD
 docs/cache/
+=======
+>>>>>>> 688d0704 (first)
 cache/

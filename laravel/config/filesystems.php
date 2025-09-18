@@ -1,7 +1,13 @@
 <?php
 
+<<<<<<< HEAD
 return [
 
+=======
+declare(strict_types=1);
+
+return [
+>>>>>>> 688d0704 (first)
     /*
     |--------------------------------------------------------------------------
     | Default Filesystem Disk
@@ -13,7 +19,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'default' => env('FILESYSTEM_DISK', 'local'),
+=======
+    'default' => config('filesystems.default', 'local'),
+>>>>>>> 688d0704 (first)
 
     /*
     |--------------------------------------------------------------------------
@@ -24,15 +34,26 @@ return [
     | may even configure multiple disks for the same driver. Examples for
     | most supported storage drivers are configured here for reference.
     |
+<<<<<<< HEAD
     | Supported Drivers: "local", "ftp", "sftp", "s3"
+=======
+    | Supported drivers: "local", "ftp", "sftp", "s3"
+>>>>>>> 688d0704 (first)
     |
     */
 
     'disks' => [
+<<<<<<< HEAD
 
         'local' => [
             'driver' => 'local',
             'root' => storage_path('app'),
+=======
+        'local' => [
+            'driver' => 'local',
+            'root' => storage_path('app/private'),
+            'serve' => true,
+>>>>>>> 688d0704 (first)
             'throw' => false,
         ],
 
@@ -55,7 +76,10 @@ return [
             'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false),
             'throw' => false,
         ],
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -72,5 +96,8 @@ return [
     'links' => [
         public_path('storage') => storage_path('app/public'),
     ],
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
 ];

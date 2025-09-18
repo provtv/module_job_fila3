@@ -13,6 +13,7 @@ Ricordarsi di modificare dentro laravel\config\event-sourcing.php, in quanto si 
     'stored_event_model' => Modules\Activity\Models\StoredEvent::class,
 ``` 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Configurazione Modulo
 description: Configurazione Modulo
@@ -29,4 +30,6 @@ Ricordarsi di modificare dentro laravel\config\event-sourcing.php, in quanto si 
 ``` 
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 per memorizzare gli eventi dentro la tabella stored_events

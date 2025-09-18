@@ -43,6 +43,7 @@ public function handle(YourNameAggregate $aggregate) {
     // ...
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Aggregati
 description: Aggregati
@@ -89,4 +90,6 @@ public function handle(YourNameAggregate $aggregate) {
 }
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 ``` 

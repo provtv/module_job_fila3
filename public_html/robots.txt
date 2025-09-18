@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 User-agent: *
 Disallow:
 =======
 User-agent: *
 Disallow:
 >>>>>>> origin/dev
+=======
+User-agent: *
+Disallow:
+>>>>>>> 688d0704 (first)

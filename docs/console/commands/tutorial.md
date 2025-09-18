@@ -1,5 +1,6 @@
 https://fly.io/laravel-bytes/console-applications-with-laravel-zero/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Comandi Console in Moduli Laraxot
@@ -69,3 +70,5 @@ class DatabaseSchemaExportCommand extends Command
 - [Laravel Artisan Console Documentation](https://laravel.com/docs/10.x/artisan)
 - [Console Applications with Laravel Zero](https://fly.io/laravel-bytes/console-applications-with-laravel-zero/)
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)

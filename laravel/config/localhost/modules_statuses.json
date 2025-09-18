@@ -33,5 +33,10 @@
     "Ticket": true,
     "Shop": true,
     "RealEstate": true,
+<<<<<<< HEAD
     "AI": true
+=======
+    "AI": true,
+    "Fixcity": true
+>>>>>>> 688d0704 (first)
 }

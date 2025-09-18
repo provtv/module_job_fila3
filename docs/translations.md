@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Traduzioni del Modulo Job
 
 ## Collegamenti
@@ -53,6 +54,8 @@ return [
     ]
 ];
 =======
+=======
+>>>>>>> 688d0704 (first)
 # Sistema di Traduzioni
 
 ## Struttura
@@ -238,5 +241,8 @@ TextInput::make('cognome')
 // Utilizzo in Actions
 Action::make('save')
 Action::make('delete')
+<<<<<<< HEAD
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 ``` 

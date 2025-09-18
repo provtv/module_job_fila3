@@ -66,6 +66,7 @@ quindi le relazioni verranno create utilizzando il MorphMap, ovvero la stringa '
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Struttura
 description: Struttura della base e dei moduli
@@ -135,4 +136,6 @@ quindi le relazioni verranno create utilizzando il MorphMap, ovvero la stringa '
 
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 - altri files

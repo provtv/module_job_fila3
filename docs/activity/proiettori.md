@@ -95,6 +95,7 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-f
 ## Proprietà $handlesEvents 
 Registrazione manuale dei metodi di gestione degli eventi
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Proiettore
 description: Proiettore
@@ -193,4 +194,6 @@ https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/writing-your-f
 Registrazione manuale dei metodi di gestione degli eventi
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 https://spatie.be/docs/laravel-event-sourcing/v7/using-projectors/creating-and-configuring-projectors#content-manually-registering-event-handling-methods

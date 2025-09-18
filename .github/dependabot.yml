@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 version: 2
@@ -25,6 +26,8 @@ updates:
       - "dependencies"
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 688d0704 (first)
 # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for more information:
@@ -37,6 +40,9 @@ updates:
    directory: "/"
    schedule:
      interval: weekly
+<<<<<<< HEAD
 >>>>>>> 2492ddab (first)
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)

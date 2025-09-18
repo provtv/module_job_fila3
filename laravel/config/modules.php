@@ -1,10 +1,18 @@
 <?php
 
+<<<<<<< HEAD
+=======
+declare(strict_types=1);
+
+>>>>>>> 688d0704 (first)
 use Nwidart\Modules\Activators\FileActivator;
 use Nwidart\Modules\Providers\ConsoleServiceProvider;
 
 return [
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
     /*
     |--------------------------------------------------------------------------
     | Module Namespace
@@ -39,6 +47,7 @@ return [
             'package' => 'package.json',
         ],
         'replacements' => [
+<<<<<<< HEAD
             /**
              * Define custom replacements for each section.
              * You can specify a closure for dynamic values.
@@ -61,6 +70,14 @@ return [
             'json' => ['LOWER_NAME', 'STUDLY_NAME', 'KEBAB_NAME', 'MODULE_NAMESPACE', 'PROVIDER_NAMESPACE'],
             'views/index' => ['LOWER_NAME'],
             'views/master' => ['LOWER_NAME', 'STUDLY_NAME', 'KEBAB_NAME'],
+=======
+            'routes/web' => ['LOWER_NAME', 'STUDLY_NAME', 'MODULE_NAMESPACE', 'CONTROLLER_NAMESPACE'],
+            'routes/api' => ['LOWER_NAME', 'STUDLY_NAME', 'MODULE_NAMESPACE', 'CONTROLLER_NAMESPACE'],
+            'vite' => ['LOWER_NAME', 'STUDLY_NAME'],
+            'json' => ['LOWER_NAME', 'STUDLY_NAME', 'MODULE_NAMESPACE', 'PROVIDER_NAMESPACE'],
+            'views/index' => ['LOWER_NAME'],
+            'views/master' => ['LOWER_NAME', 'STUDLY_NAME'],
+>>>>>>> 688d0704 (first)
             'scaffold/config' => ['STUDLY_NAME'],
             'composer' => [
                 'LOWER_NAME',
@@ -213,7 +230,10 @@ return [
         |
         */
         'translations' => false,
+<<<<<<< HEAD
 
+=======
+>>>>>>> 688d0704 (first)
     ],
 
     /*
@@ -272,7 +292,11 @@ return [
     */
     'register' => [
         'translations' => true,
+<<<<<<< HEAD
         /**
+=======
+        /*
+>>>>>>> 688d0704 (first)
          * load files on boot or register method
          */
         'files' => 'register',

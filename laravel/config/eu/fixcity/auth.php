@@ -69,7 +69,12 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
+<<<<<<< HEAD
             'model' => Modules\User\Models\User::class,
+=======
+            // 'model' => Modules\User\Models\User::class,
+            'model' => Modules\Fixcity\Models\User::class,
+>>>>>>> 688d0704 (first)
         ],
 
         // 'users' => [

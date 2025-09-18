@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 use Modules\Tenant\Services\TenantService;
+=======
+>>>>>>> 688d0704 (first)
 
 return [
     'connections' => [
@@ -26,7 +29,11 @@ return [
             'port' => env('DB_PORT', '3306'),
             // 'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
             'database' => env('DB_DATABASE_USER', 'forge86'),
+<<<<<<< HEAD
             'username' => env('DB_USERNAME_USER', 'forgeu187'),
+=======
+            'username' => env('DB_USERNAME_USER', 'forge_user_01'),
+>>>>>>> 688d0704 (first)
             'password' => env('DB_PASSWORD_USER', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
@@ -42,6 +49,7 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+<<<<<<< HEAD
 
         'orbit' => [
             'driver' => 'sqlite',
@@ -53,5 +61,7 @@ return [
             'database' => storage_path('framework/cache/orbit/orbit_meta.sqlite'),
             'foreign_key_constraints' => false,
         ],
+=======
+>>>>>>> 688d0704 (first)
     ], // end connections
 ];

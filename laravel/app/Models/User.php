@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 688d0704 (first)
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -9,6 +12,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+<<<<<<< HEAD
 /**
  * @property int                                                                                                           $id
  * @property string                                                                                                        $name
@@ -40,11 +44,21 @@ class User extends Authenticatable
 {
     use HasFactory;
     use Notifiable;
+=======
+class User extends Authenticatable
+{
+    /** @use HasFactory<\Database\Factories\UserFactory> */
+    use HasFactory, Notifiable;
+>>>>>>> 688d0704 (first)
 
     /**
      * The attributes that are mass assignable.
      *
+<<<<<<< HEAD
      * @var array<int, string>
+=======
+     * @var list<string>
+>>>>>>> 688d0704 (first)
      */
     protected $fillable = [
         'name',
@@ -55,7 +69,11 @@ class User extends Authenticatable
     /**
      * The attributes that should be hidden for serialization.
      *
+<<<<<<< HEAD
      * @var array<int, string>
+=======
+     * @var list<string>
+>>>>>>> 688d0704 (first)
      */
     protected $hidden = [
         'password',

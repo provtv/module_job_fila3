@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "laravel/laravel",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
@@ -11,6 +12,19 @@
     "require-dev": {
         "phpstan/phpstan": "*",
         "rector/rector": "^2.0"
+=======
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": ["laravel", "framework"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "codewithkyrian/transformers-libsloader": "*",
+        "laravel/framework": "*",
+        "nwidart/laravel-modules": "^11.1"
+>>>>>>> 688d0704 (first)
     },
     "autoload": {
         "psr-4": {
@@ -21,6 +35,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+<<<<<<< HEAD
             "Tests\\": "tests/",
             "Modules\\Rating\\Tests\\": "Modules/Rating/tests/"
         }
@@ -30,6 +45,22 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
             "@php artisan filament:upgrade"
+=======
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "larastan/larastan": "*",
+        "thecodingmachine/phpstan-safe-rule": "*",
+        "mockery/mockery": "*",
+        "phpunit/phpunit": "*",
+        "webmozart/assert": "*"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+>>>>>>> 688d0704 (first)
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
@@ -40,7 +71,15 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+<<<<<<< HEAD
             "@php artisan migrate --ansi"
+=======
+            "@php artisan migrate --graceful --ansi"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
+>>>>>>> 688d0704 (first)
         ]
     },
     "extra": {
@@ -61,7 +100,11 @@
             "pestphp/pest-plugin": true,
             "php-http/discovery": true,
             "wikimedia/composer-merge-plugin": true,
+<<<<<<< HEAD
             "dealerdirect/phpcodesniffer-composer-installer": true
+=======
+            "codewithkyrian/transformers-libsloader": true
+>>>>>>> 688d0704 (first)
         }
     },
     "minimum-stability": "dev",

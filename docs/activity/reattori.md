@@ -52,6 +52,7 @@ class EventSourcingServiceProvider extends ServiceProvider
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 title: Reattori
 description: Reattori
@@ -107,4 +108,6 @@ class EventSourcingServiceProvider extends ServiceProvider
 }
 =======
 >>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
+=======
+>>>>>>> 688d0704 (first)
 ``` 
