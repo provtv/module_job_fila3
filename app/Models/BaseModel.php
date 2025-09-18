@@ -62,8 +62,7 @@ abstract class BaseModel extends Model
         // 'password'
     ];
 
-    public function __construct(array $attributes = [])
-    {
+    public function __construct(): void {
         if (isset($this->prefix)) {
             $this->table = $this->prefix.$this->table;
         }

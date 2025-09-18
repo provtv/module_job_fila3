@@ -43,6 +43,7 @@ class ViewSchedule extends Page implements HasTable
 
     protected function getHeaderActions(): array
     {
+        /** @var array<string, \Filament\Actions\Action> */
         return [];
     }
 

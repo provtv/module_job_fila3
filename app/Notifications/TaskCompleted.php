@@ -19,7 +19,7 @@ class TaskCompleted extends Notification implements ShouldQueue
      *
      * @return void
      */
-    public function __construct(private readonly string $output) {}
+    public function __construct(): void {}
 
     /**
      * Get the notification's delivery channels.

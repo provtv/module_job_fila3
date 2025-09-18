@@ -18,8 +18,7 @@ class ScheduleService
      */
     private $model;
 
-    public function __construct()
-    {
+    public function __construct(): void {
         Assert::string($modelClass = config('job::model'), '['.__LINE__.']['.class_basename($this).']');
         $this->model = app($modelClass);
     }
@@ -29,8 +28,7 @@ class ScheduleService
      *
      * @return Collection
      */
-    public function getActives()
-    {
+    public function getActives(): void {
         if (config('job::cache.enabled')) {
             return $this->getFromCache();
         }

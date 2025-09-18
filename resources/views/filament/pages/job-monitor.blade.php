@@ -1,3 +1,3 @@
-<x-filament::page>
+lament::page>
 <livewire:job.status></livewire:job.status>
 </x-filament::page>

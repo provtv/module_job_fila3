@@ -16,6 +16,7 @@ class ExportResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             'name' => \Filament\Forms\Components\TextInput::make('name')
                 ->required()

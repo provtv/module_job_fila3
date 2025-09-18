@@ -137,6 +137,8 @@ storage/jobs/
 job_test_data.json
 test_jobs.sql
 
+lang/lang/
+
 # ==============================================
 # END OF JOB .GITIGNORE
 # ==============================================

@@ -1,4 +1,3 @@
-<div>
     <form wire:submit.prevent="store">
         <div class="uk-flex uk-flex-between uk-flex-middle">
             <h5 class="uk-card-title uk-margin-remove">{{ $task->exists ? 'Update' : 'Create' }} Task</h5>

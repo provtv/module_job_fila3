@@ -1,4 +1,3 @@
-<div>
     {{-- <x-filament::section></x-filament::section>
     <x-filament::section>
         <x-slot name="title">Job Status</x-slot>

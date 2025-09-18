@@ -23,6 +23,7 @@ class ListJobs extends XotBaseListRecords
      */
     public function getTableColumns(): array
     {
+        /** @var array<string, \Filament\Tables\Columns\Column> */
         return [
             'id' => TextColumn::make('id')
                 ->searchable()

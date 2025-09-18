@@ -19,6 +19,7 @@ class JobResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+        /** @var array<string, \Filament\Forms\Components\Component> */
         return [
             'queue' => \Filament\Forms\Components\TextInput::make('queue')
                 ->required()

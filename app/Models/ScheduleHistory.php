@@ -68,8 +68,7 @@ class ScheduleHistory extends BaseModel
          * @return void
          */
     /*
-    public function __construct(array $attributes = [])
-    {
+    public function __construct(): void {
         parent::__construct($attributes);
 
         $this->table = Config::get('filament-database-schedule.table.schedule_histories', 'schedule_histories');

@@ -58,8 +58,7 @@ class ClockWidget extends Widget
         // $output = new BufferedOutput();
         /*
         $output = new class() extends StreamOutput {
-            public function __construct()
-            {
+            public function __construct(): void {
                 parent::__construct(fopen('php://output', 'w'));
             }
 

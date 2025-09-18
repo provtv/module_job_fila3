@@ -1,4 +1,4 @@
-@extends('job::layouts.master')
+nds('job::layouts.master')
 
 @section('content')
     <h1>Hello World</h1>

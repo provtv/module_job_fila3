@@ -1,4 +1,4 @@
-@props([
+s([
     'color' => 'primary',
     'darkMode' => false,
     'disabled' => false,

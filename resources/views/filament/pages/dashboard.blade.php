@@ -1,4 +1,4 @@
-<x-filament::page>
+lament::page>
     {{--
     <img src="{{ ui::asset('ewall::img/logo.png') }}" />
 

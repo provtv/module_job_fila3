@@ -1,4 +1,3 @@
-<div>
     <div class="uk-flex uk-flex-between uk-flex-middle">
         <h4 class="uk-card-title uk-margin-remove">Tasks</h4>
         {!! Form::open([

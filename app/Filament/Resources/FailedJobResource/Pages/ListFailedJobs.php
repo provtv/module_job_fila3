@@ -22,6 +22,7 @@ class ListFailedJobs extends XotBaseListRecords
 
     public function getTableColumns(): array
     {
+        /** @var array<string, \Filament\Tables\Columns\Column> */
         return [
             'id' => TextColumn::make('id')
                 ->searchable()
@@ -55,6 +56,7 @@ class ListFailedJobs extends XotBaseListRecords
      */
     protected function getHeaderActions(): array
     {
+        /** @var array<string, \Filament\Actions\Action> */
         return [
             'retry_all' => Action::make('retry_all')
                 ->requiresConfirmation()
