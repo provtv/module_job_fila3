@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "laraxot/module_job_fila3",
     "description": "job module enables efficient background task execution. It lets you offload resource-heavy processes, like sending emails or data processing, improving app performance. Through simple job definition and dispatching, you can enhance user experience while tasks run seamlessly in the background.",
     "keywords": [
@@ -81,3 +82,21 @@
     }
 }
 >>>>>>> 2492ddab (first)
+=======
+    "name": "laraxot/bashscripts_fila3",
+    "autoload": {
+        "psr-4": {
+            "Laraxot\\BashscriptsFila3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marco76tv",
+            "email": "marco.sottana@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "larastan/larastan": "^3.0"
+    }
+}
+>>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)

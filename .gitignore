@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE JOB - .GITIGNORE
 # ==============================================
@@ -178,16 +179,39 @@ package-lock.json
 .php-cs-fixer.cache
 package-lock.json
 .git-rewrite/
+=======
+.git-rewrite
+.fuse_hidden*
+.fuse_hidden**.lock
+*.lock
+package-lock.json
+.php-cs-fixer.cache
+*.phar
+*.cache
+node_modules
+/node_modules
+vendor/
+.git-blame-ignore-revs
+.git-blame-ignore-revs
+>>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)
 node_modules
 vendor
 .php-cs-fixer.cache
 .git-blame-ignore-revs
+<<<<<<< HEAD
 vendor/
 build/
+=======
+build/
+vendor/
+build/
+node_modules
+>>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)
 docs/cache/
 cache/
 .git-blame-ignore-revs
 .php-cs-fixer.cache
+<<<<<<< HEAD
 *:Zone.Identifier
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,3 +324,13 @@ _docs
 =======
 laravel/Modules/Cms/build/
 >>>>>>> 3781e97a (.)
+=======
+*.exe
+**/*.Zone.Identifier
+*:Zone.Identifier
+*:Zone.Identifier
+.php-cs-fixer.cache
+*:Zone.Identifier
+.php-cs-fixer.cache
+**/*.Zone.Identifier
+>>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)

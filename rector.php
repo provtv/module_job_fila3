@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Rector\CodeQuality\Rector\Class_\InlineConstructorDefaultToPropertyRector;
 use Rector\Config\RectorConfig;
 use Rector\PHPUnit\Set\PHPUnitLevelSetList;
@@ -49,3 +50,20 @@ return static function (RectorConfig $rectorConfig): void {
 
     $rectorConfig->importNames();
 };
+=======
+use Rector\Config\RectorConfig;
+use Rector\TypeDeclaration\Rector\ClassMethod\AddVoidReturnTypeWhereNoReturnRector;
+
+return RectorConfig::configure()
+    ->withPaths([
+        __DIR__.'/',
+    ])
+    ->withSkip([
+        __DIR__.'/vendor',
+    ])
+    // uncomment to reach your current PHP version
+    ->withPhpSets()
+    ->withRules([
+        // AddVoidReturnTypeWhereNoReturnRector::class,
+    ]);
+>>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)
