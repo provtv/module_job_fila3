@@ -4,9 +4,12 @@ on:
   release:
     types: [released]
 
+<<<<<<< HEAD
 permissions:
   contents: write
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 jobs:
   update:
     runs-on: ubuntu-latest

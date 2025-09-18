@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "Job",
     "alias": "job",
     "description": "",
@@ -9,8 +10,24 @@
     "providers": [
         "Modules\\Job\\Providers\\JobServiceProvider",
         "Modules\\Job\\Providers\\Filament\\AdminPanelProvider"
+=======
+    "name": "Xot",
+    "alias": "xot",
+    "description": "",
+    "keywords": [],
+    "priority": 2,
+    "active": 1,
+    "order": 2,
+    "providers": [
+        "Modules\\Xot\\Providers\\XotServiceProvider",
+        "Modules\\Xot\\Providers\\Filament\\AdminPanelProvider"
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
     ],
     "aliases": [],
     "files": [],
     "requires": []
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

@@ -6,7 +6,11 @@ Questo documento contiene le linee guida generali e le regole comuni per risolve
 
 ### 1. Eliminazione del tipo `mixed`
 
+<<<<<<< HEAD
 Il tipo `mixed` è spesso la causa principale degli errori PHPStan a livello 10. Dovrebbe essere sostituito con tipi più specifici quando possibile.
+=======
+Il tipo `mixed` è spesso la causa principale degli errori PHPStan a livello 10. **Dovrebbe essere utilizzato SOLO come ultima spiaggia**, quando non è possibile determinare un tipo più specifico. In tutti gli altri casi, è necessario sostituirlo con tipi più specifici.
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 **Prima**:
 ```php
@@ -28,6 +32,54 @@ public function handle($input)
 }
 ```
 
+<<<<<<< HEAD
+=======
+#### Perché evitare `mixed`?
+
+- Riduce drasticamente l'efficacia dell'analisi statica
+- Aumenta il rischio di errori a runtime
+- Nasconde potenziali problemi di tipo
+- Rende il codice meno comprensibile
+- Compromette l'autocompletamento nell'IDE
+
+#### Alternative al tipo `mixed`
+
+1. **Union Types**: Specificare tutti i possibili tipi che possono essere accettati/restituiti
+   ```php
+   public function process(string|int|array|null $data): bool|int
+   ```
+
+2. **Tipi generici**: Per collezioni e strutture dati complesse
+   ```php
+   /** @var array<string, int|string> */
+   ```
+
+3. **Template Types**: Per classi generiche
+   ```php
+   /**
+    * @template T
+    * @param T $value
+    * @return T
+    */
+   ```
+
+4. **Tipizzare per contratto**: Utilizzare interfacce quando si lavora con oggetti di tipi diversi
+   ```php
+   public function process(ProcessableInterface $item): void
+   ```
+
+5. **Strict Type Checking**: Utilizzare controlli di tipo espliciti prima di operare sui dati
+   ```php
+   if (is_string($value)) {
+       // Operazioni sicure su stringhe
+   } elseif (is_array($value)) {
+       // Operazioni sicure su array
+   }
+   ```
+
+Solo quando nessuna di queste soluzioni è fattibile, consider l'uso di `mixed` con annotazioni dettagliate che spiegano il motivo.
+
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 ### 2. Tipizzazione Corretta degli Array
 
 Gli array dovrebbero essere sempre tipizzati correttamente utilizzando le notazioni generiche nelle annotazioni PHPDoc.
@@ -57,7 +109,57 @@ Per le risorse PHP (file handles, connessioni di database, ecc.) che non possono
 private $fileHandle = null;
 ```
 
+<<<<<<< HEAD
 ### 4. Pattern per Controller
+=======
+### 4. Gestione delle API Fluenti di Librerie Esterne
+
+Le API fluenti (method chaining) di alcune librerie esterne come Laravel-FFMpeg possono causare problemi con PHPStan a livello 10, in particolare quando i metodi intermedi restituiscono tipi non standard o quando la catena è lunga e complessa.
+
+**Problema comune**:
+```
+Call to an undefined method LibraryClass::someMethod()
+Cannot call method lastMethod() on mixed
+```
+
+**Pattern di soluzione**:
+
+1. **Istanziazione esplicita di oggetti intermedi**:
+   ```php
+   // Invece di:
+   LibraryClass::start()
+       ->intermediateMethod()
+       ->problematicMethod($param)
+       ->finalMethod();
+   
+   // Preferire:
+   $formatObj = new FormatClass(); // Istanziazione esplicita
+   
+   // @phpstan-ignore-next-line
+   LibraryClass::start()
+       ->intermediateMethod()
+       ->finalMethod($formatObj);
+   ```
+
+2. **Uso selettivo di @phpstan-ignore-next-line**:
+   - Usare questa annotazione **SOLO** quando il problema è nella libreria esterna e non nel nostro codice
+   - Limitare l'annotazione alla riga specifica e non a intere funzioni o classi
+   - Aggiungere sempre un commento che spiega perché l'annotazione è necessaria
+
+3. **Documentazione adeguata**:
+   ```php
+   /**
+    * Converte il video usando la libreria FFMpeg.
+    * 
+    * @param FormatClass $format Il formato di output
+    * @return string Il percorso del file convertito
+    */
+   ```
+
+Questo pattern è stato applicato con successo nei file `ConvertVideoByMediaConvertAction.php` e `ConvertVideoByConvertDataAction.php` del modulo Media per gestire l'API fluente di Laravel-FFMpeg.
+
+### 5. Pattern per Controller
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Per i metodi dei controller, utilizzare tipi di ritorno espliciti che riflettono i possibili valori restituiti:
 
@@ -68,7 +170,11 @@ public function show(string $id): \Illuminate\View\View|\Illuminate\Http\Redirec
 }
 ```
 
+<<<<<<< HEAD
 ### 5. Gestione delle Proprietà Dinamiche
+=======
+### 6. Gestione delle Proprietà Dinamiche
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Per le proprietà dinamiche nei modelli, utilizzare annotazioni PHPDoc complete:
 
@@ -84,9 +190,13 @@ class User extends Model
 }
 ```
 
+<<<<<<< HEAD
 ## Casi Speciali
 
 ### 1. Conversione Sicura da `mixed` a Tipi Scalari
+=======
+### 7. Conversione Sicura da `mixed` a Tipi Scalari
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Quando si lavora con valori `mixed` da convertire in tipi scalari (string, int, float, bool), utilizzare controlli di tipo prima della conversione:
 
@@ -128,7 +238,11 @@ if ($value !== null) {
 }
 ```
 
+<<<<<<< HEAD
 ### 2. Gestione Sicura di Array con Chiavi Miste
+=======
+### 8. Gestione Sicura di Array con Chiavi Miste
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Quando si ottengono array da fonti esterne (es. funzioni Laravel che restituiscono array con chiavi miste):
 
@@ -145,7 +259,11 @@ foreach ($componentsWithMixedKeys as $key => $component) {
 }
 ```
 
+<<<<<<< HEAD
 ### 3. Tipi Unione con Null
+=======
+### 9. Tipi Unione con Null
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Preferire la sintassi nullable (`?tipo`) per i tipi che possono essere null:
 
@@ -156,7 +274,11 @@ public function findById(?int $id): ?User
 }
 ```
 
+<<<<<<< HEAD
 ### 2. Parametri Variabili (Variadic)
+=======
+### 10. Parametri Variabili (Variadic)
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Per i parametri variabili, specificare il tipo di ogni elemento nell'array risultante:
 
@@ -171,7 +293,11 @@ public function buildPath(string ...$segments): string
 }
 ```
 
+<<<<<<< HEAD
 ### 3. Callback e Closure
+=======
+### 10. Callback e Closure
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 Per i callback e le closure, utilizzare `callable` con specifiche di tipo dettagliate:
 
@@ -292,6 +418,7 @@ public function getName(): ?string
 5. Verificare che le soluzioni non introducano nuovi errori
 6. Aggiornare questo documento con nuovi pattern e soluzioni trovate
 
+<<<<<<< HEAD
 # Linee Guida per PHPStan Livello 10 - Regole Comuni
 
 Questo documento contiene le linee guida generali e le regole comuni per risolvere gli errori PHPStan di livello 10 in tutti i moduli del progetto Laraxot.
@@ -587,3 +714,152 @@ public function getName(): ?string
 6. Aggiornare questo documento con nuovi pattern e soluzioni trovate
 
 La risoluzione degli errori PHPStan livello 10 porta a un codice più robusto, più facile da mantenere e meno soggetto a errori in fase di esecuzione. Seguendo queste linee guida, sarà possibile migliorare progressivamente la qualità del codice e raggiungere la conformità a PHPStan livello 10 in tutto il progetto.
+=======
+La risoluzione degli errori PHPStan livello 10 porta a un codice più robusto, più facile da mantenere e meno soggetto a errori in fase di esecuzione. Seguendo queste linee guida, sarà possibile migliorare progressivamente la qualità del codice e raggiungere la conformità a PHPStan livello 10 in tutto il progetto.
+
+## Casi Specifici per Filament
+
+### 1. Documentazione del metodo `getInfolistSchema`
+
+Il metodo `getInfolistSchema` è utilizzato nelle classi che estendono `XotBaseViewRecord` per definire lo schema di visualizzazione dei dettagli di un record. Questo metodo deve **sempre** restituire un array con chiavi di tipo stringa che rappresentano i componenti Filament da visualizzare.
+
+La corretta documentazione di questo metodo deve essere:
+
+```php
+/**
+ * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
+ *
+ * @return array<string, \Filament\Infolists\Components\Component>
+ */
+protected function getInfolistSchema(): array
+{
+    return [
+        'id' => TextEntry::make('id'),
+        'nome' => TextEntry::make('nome'),
+        // Altri componenti...
+    ];
+}
+```
+
+È fondamentale utilizzare sempre chiavi di tipo stringa per identificare chiaramente i componenti nell'array. Non utilizzare mai array sequenziali con indici numerici impliciti.
+
+### 2. Documentazione del metodo `getTableHeaderActions`
+
+Il metodo `getTableHeaderActions` è utilizzato nelle classi che estendono `XotBaseRelationManager` per definire le azioni disponibili nell'header della tabella. Questo metodo deve:
+
+1. Essere dichiarato come **`public`** (non protected) per essere compatibile con la classe parent
+2. Restituire **sempre** un array con chiavi di tipo stringa
+
+La corretta implementazione deve essere:
+
+```php
+/**
+ * Restituisce le azioni disponibili nell'header della tabella.
+ *
+ * @return array<string, \Filament\Tables\Actions\Action|\Filament\Tables\Actions\ActionGroup>
+ */
+public function getTableHeaderActions(): array
+{
+    return [
+        'create' => CreateAction::make(),
+        'attach' => AttachAction::make(),
+        // Altre azioni...
+    ];
+}
+```
+
+#### ❌ Implementazione errata:
+
+```php
+// ERRORE: visibilità errata (protected anziché public)
+protected function getTableHeaderActions(): array
+{
+    return [
+        AddAttachmentAction::make(), // ERRORE: chiave numerica implicita
+    ];
+}
+```
+
+#### ✅ Implementazione corretta:
+
+```php
+// CORRETTO: visibilità public
+public function getTableHeaderActions(): array
+{
+    return [
+        'addAttachment' => AddAttachmentAction::make(), // CORRETTO: chiave stringa esplicita
+    ];
+}
+```
+
+## Esempi di implementazioni corrette:
+
+```php
+/**
+ * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
+ *
+ * @return array<string, \Filament\Infolists\Components\Component>
+ */
+protected function getInfolistSchema(): array
+{
+    return [
+        'informazioni_personali' => Section::make('Informazioni Personali')
+            ->schema([
+                // Altri componenti...
+            ]),
+        'dettagli_contatto' => Section::make('Dettagli Contatto')
+            ->schema([
+                // Altri componenti...
+            ]),
+    ];
+}
+```
+
+## Namespace Corretti
+
+### Regola Fondamentale: Rimuovere "app" dai Namespace
+
+Anche se i file sono fisicamente collocati nella directory `app` del modulo, il namespace **NON** deve includere questo segmento.
+
+#### Errore Comune: Namespace Actions
+
+Uno degli errori più frequenti riguarda il namespace delle Actions:
+
+- ✅ **CORRETTO**: `namespace Modules\Xot\Actions;`
+- ❌ **ERRATO**: `namespace Modules\Xot\app\Actions;`
+
+Anche se il file Actions si trova fisicamente in `Modules/Xot/app/Actions/`, il namespace deve sempre essere `Modules\Xot\Actions` (senza il segmento `app`).
+
+Gli errori PHPStan relativi a questo problema sono spesso del tipo:
+```
+Class 'Modules\Xot\app\Actions\MyAction' not found.
+```
+
+#### Esempio per i Comandi Console
+
+```php
+// CORRETTO
+namespace Modules\Xot\Console\Commands;
+
+// ERRATO
+namespace Modules\Xot\app\Console\Commands;
+```
+
+Errori PHPStan come `Class Modules\Xot\app\Console\Commands\DatabaseSchemaExportCommand not found` indicano che è necessario rimuovere il segmento `app` dal namespace.
+
+#### Namespace Corretti per i Componenti Principali
+
+| Tipo di Componente       | Percorso Fisico                         | Namespace Corretto                 |
+|--------------------------|----------------------------------------|-----------------------------------|
+| Modelli                  | `Modules/Xot/app/Models/`              | `Modules\Xot\Models`              |
+| Controller               | `Modules/Xot/app/Http/Controllers/`    | `Modules\Xot\Http\Controllers`    |
+| Actions                  | `Modules/Xot/app/Actions/`             | `Modules\Xot\Actions`             |
+| Providers                | `Modules/Xot/app/Providers/`           | `Modules\Xot\Providers`           |
+| **Comandi Console**      | `Modules/Xot/app/Console/Commands/`    | `Modules\Xot\Console\Commands`    |
+| Data Objects             | `Modules/Xot/app/Datas/`               | `Modules\Xot\Datas`               |
+| Filament Resources       | `Modules/Xot/app/Filament/Resources/`  | `Modules\Xot\Filament\Resources`  |
+
+#### Esempio per i Comandi Console
+
+```
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

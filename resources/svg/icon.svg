@@ -6,6 +6,7 @@
      stroke-width="1.5"
      aria-hidden="true" 
      role="img">
+<<<<<<< HEAD
     <!-- Lista principale -->
     <path stroke-linecap="round" 
           stroke-linejoin="round" 
@@ -21,4 +22,23 @@
     <path stroke-linecap="round" 
           stroke-linejoin="round" 
           d="M6.5 14.5l1 1 2-2" />
+=======
+    <!-- Cubo base -->
+    <path stroke-linecap="round" 
+          stroke-linejoin="round" 
+          d="M12 3l7 4v10l-7 4-7-4V7l7-4z" />
+    
+    <!-- Linee interne -->
+    <path stroke-linecap="round" 
+          stroke-linejoin="round" 
+          d="M12 3v8M5 7l7 4M19 7l-7 4" />
+    
+    <!-- Punto centrale -->
+    <circle cx="12" cy="11" r="1" fill="currentColor" />
+    
+    <!-- Connessioni modulari -->
+    <path stroke-linecap="round" 
+          stroke-linejoin="round" 
+          d="M12 15v4M9 17l3-2M15 17l-3-2" />
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 </svg> 

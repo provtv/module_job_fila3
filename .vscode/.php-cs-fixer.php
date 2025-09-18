@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -16,6 +17,8 @@ declare(strict_types=1);
 >>>>>>> eaeb6531 (.)
 =======
 >>>>>>> 2492ddab (first)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 $finder = PhpCsFixer\Finder::create()
     ->notPath('bootstrap/cache')
     ->notPath('storage')
@@ -26,9 +29,12 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreDotFiles(true)
     ->ignoreVCS(true)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ;
 >>>>>>> 2492ddab (first)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 $config = new PhpCsFixer\Config();
 
@@ -57,6 +63,7 @@ $config
     ])
     ->setFinder($finder)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 return $config;
 =======
@@ -64,3 +71,7 @@ return $config;
 
 return $config;
 >>>>>>> 2492ddab (first)
+=======
+
+return $config;
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

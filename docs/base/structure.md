@@ -65,6 +65,7 @@ quindi le relazioni verranno create utilizzando il MorphMap, ovvero la stringa '
 'locale' => 'it',
 ```
 
+<<<<<<< HEAD
 ---
 title: Struttura
 description: Struttura della base e dei moduli
@@ -132,4 +133,6 @@ quindi le relazioni verranno create utilizzando il MorphMap, ovvero la stringa '
 'locale' => 'it',
 ```
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 - altri files

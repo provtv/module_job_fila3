@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rapporto PHPStan Livello max per il modulo Job
 
 Data analisi: 2025-04-15 22:04:52
@@ -11,6 +12,21 @@ Trovati 45 errori al livello max.
 ### File: `/var/www/html/saluteora/laravel/Modules/Job/app/Actions/Command/GetCommandsAction.php`
 
 #### Linea 25: Cannot call method all() on mixed.
+=======
+# Rapporto PHPStan Livello max per il modulo Xot
+
+Data analisi: 2025-04-15 21:56:24
+
+## Riepilogo
+
+Trovati 4 errori al livello max.
+
+## Errori e suggerimenti
+
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/Export/ExportXlsByView.php`
+
+#### Linea 40: Syntax error, unexpected T_SR on line 40
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 **Suggerimento generale**: Rivedi il codice per assicurarti che:
 - Tutte le classi/interfacce utilizzate siano importate correttamente
@@ -18,7 +34,11 @@ Trovati 45 errori al livello max.
 - Le variabili siano inizializzate prima dell'uso
 - I nomi di metodi e proprietà siano corretti
 
+<<<<<<< HEAD
 #### Linea 56: Parameter $signature of class Modules\Job\Datas\CommandData constructor expects string, mixed given.
+=======
+#### Linea 41: Syntax error, unexpected '}' on line 41
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 **Suggerimento generale**: Rivedi il codice per assicurarti che:
 - Tutte le classi/interfacce utilizzate siano importate correttamente
@@ -26,9 +46,15 @@ Trovati 45 errori al livello max.
 - Le variabili siano inizializzate prima dell'uso
 - I nomi di metodi e proprietà siano corretti
 
+<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Job/app/Actions/GetTaskCommandsAction.php`
 
 #### Linea 39: Parameter #1 $callback of method Illuminate\Support\Collection<(int
+=======
+### File: `/var/www/html/saluteora/laravel/Modules/Xot/app/Actions/View/GetViewByClassAction.php`
+
+#### Linea 47: Syntax error, unexpected T_SR on line 47
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 **Suggerimento generale**: Rivedi il codice per assicurarti che:
 - Tutte le classi/interfacce utilizzate siano importate correttamente
@@ -36,6 +62,7 @@ Trovati 45 errori al livello max.
 - Le variabili siano inizializzate prima dell'uso
 - I nomi di metodi e proprietà siano corretti
 
+<<<<<<< HEAD
 ### File: `/var/www/html/saluteora/laravel/Modules/Job/app/Filament/Columns/ScheduleArguments.php`
 
 #### Linea 56: Cannot access offset 'value' on mixed.
@@ -397,6 +424,9 @@ Trovati 45 errori al livello max.
 ### File: `/var/www/html/saluteora/laravel/Modules/Job/app/Services/ScheduleService.php`
 
 #### Linea 24: Property Modules\Job\Services\ScheduleService::$model (Modules\Job\Models\Schedule) does not accept mixed.
+=======
+#### Linea 48: Syntax error, unexpected '}' on line 48
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 **Suggerimento generale**: Rivedi il codice per assicurarti che:
 - Tutte le classi/interfacce utilizzate siano importate correttamente

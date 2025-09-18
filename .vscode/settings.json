@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 	"editor.formatOnType": true,
 	"php-cs-fixer.onsave": true,
 	"php-cs-fixer.formatHtml": true,
@@ -39,6 +42,7 @@
 	"[vue]": {
 		"editor.defaultFormatter": "octref.vetur"
 	}
+<<<<<<< HEAD
 =======
 	"editor.formatOnSave": false,
 		"editor.formatOnType": true,
@@ -76,4 +80,6 @@
     		"**/node_modules/*/**": true
   		}
 >>>>>>> 2492ddab (first)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 }

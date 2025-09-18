@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Job Module Analysis
 
 ## Overview
@@ -6,6 +7,16 @@ The Job module provides specialized functionality within the Laravel application
 ## Directory Structure
 ```
 Modules/Job/
+=======
+# Xot Module Analysis
+
+## Overview
+The Xot module provides specialized functionality within the Laravel application.
+
+## Directory Structure
+```
+Modules/Xot/
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 ├── app/
 │   ├── Models/
 │   ├── Http/
@@ -24,7 +35,11 @@ Modules/Job/
 - PHPStan Level 7 compliance required
 
 ### Features
+<<<<<<< HEAD
 1. Core Job Management
+=======
+1. Core Xot Management
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 2. Integration with Related Modules
 3. Data Processing and Validation
 
@@ -58,6 +73,7 @@ Modules/Job/
 - Integration tests with dependent modules
 - Security testing
 - Performance testing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Versione HEAD
@@ -96,3 +112,5 @@ Modules/Job/
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

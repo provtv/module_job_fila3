@@ -2,9 +2,12 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,5 +19,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 /*
+<<<<<<< HEAD
 Route::middleware('auth:api')->get('/job', fn(Request $request) => $request->user());
+=======
+Route::middleware('auth:api')->get('/xot', function (Request $request) {
+    return $request->user();
+});
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 */

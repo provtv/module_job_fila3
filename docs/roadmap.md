@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Job Module Roadmap
+=======
+# Xot Module Roadmap
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 ## Module Progress Overview
 Overall Module Completion: 60%
@@ -76,6 +80,7 @@ Overall Module Completion: 60%
    - Query optimization
    - Cache implementation
    - Priority: High
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Versione HEAD
@@ -462,3 +467,5 @@ Overall Module Completion: 60%
 - [Theme Sixteen Documentation](laravel/Themes/Sixteen/docs/README.md)
 - [Theme TwentyOne Documentation](laravel/Themes/TwentyOne/docs/README.md)
 >>>>>>> 2492ddab (first)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

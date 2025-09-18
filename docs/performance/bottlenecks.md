@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Job Module Performance Bottlenecks
 
 ## Queue Management
@@ -224,6 +225,8 @@ Implementare:
 =======
 >>>>>>> eaeb6531 (.)
 =======
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 # Performance Bottlenecks Analysis
 
 ## Query Bottlenecks
@@ -239,12 +242,20 @@ In `GetAnswersByQuestionChart::execute()`:
 ```
 
 **Soluzioni proposte:**
+<<<<<<< HEAD
 1. **Implementare caching strategico:**
+=======
+1. Implementare caching strategico:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Cache per risultati aggregati
    - Cache per query frequenti
    - Invalidazione cache intelligente
 
+<<<<<<< HEAD
 2. **Ottimizzare query:**
+=======
+2. Ottimizzare query:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Utilizzare indici appropriati
    - Ridurre il numero di join
    - Implementare query chunks per grandi dataset
@@ -260,12 +271,20 @@ In `GetPieceQueryBySurveyIdAction::execute()`:
 ```
 
 **Soluzioni proposte:**
+<<<<<<< HEAD
 1. **Ottimizzare la costruzione delle query:**
+=======
+1. Ottimizzare la costruzione delle query:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Utilizzare query builder più efficienti
    - Implementare limiti di paginazione
    - Creare indici per i campi di filtro comuni
 
+<<<<<<< HEAD
 2. **Implementare caching per filtri comuni:**
+=======
+2. Implementare caching per filtri comuni:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Cache dei risultati dei filtri più utilizzati
    - Invalidazione selettiva del cache
 
@@ -282,12 +301,20 @@ In `GetChartsDataByQuestionChart::doExecute()`:
 ```
 
 **Soluzioni proposte:**
+<<<<<<< HEAD
 1. **Implementare elaborazione a chunk:**
+=======
+1. Implementare elaborazione a chunk:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Processare i dati in batch
    - Utilizzare generatori per grandi dataset
    - Implementare streaming di dati dove possibile
 
+<<<<<<< HEAD
 2. **Ottimizzare strutture dati:**
+=======
+2. Ottimizzare strutture dati:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Ridurre duplicazione dati
    - Utilizzare tipi di dati più efficienti
    - Implementare garbage collection esplicito
@@ -303,12 +330,20 @@ In `AnswersCompleteExport`:
 ```
 
 **Soluzioni proposte:**
+<<<<<<< HEAD
 1. **Implementare export incrementale:**
+=======
+1. Implementare export incrementale:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Utilizzare queued exports
    - Implementare streaming per file grandi
    - Aggiungere progress tracking
 
+<<<<<<< HEAD
 2. **Ottimizzare formato export:**
+=======
+2. Ottimizzare formato export:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Compressione dati
    - Format ottimizzati per grandi dataset
    - Export selettivo dei campi
@@ -324,16 +359,25 @@ In `AnswersCompleteExport`:
 ```
 
 **Soluzioni proposte:**
+<<<<<<< HEAD
 1. **Implementare elaborazione parallela:**
+=======
+1. Implementare elaborazione parallela:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Utilizzare job queue per operazioni pesanti
    - Implementare batch processing
    - Ottimizzare lock su risorse condivise
 
+<<<<<<< HEAD
 2. **Migliorare gestione concorrenza:**
+=======
+2. Migliorare gestione concorrenza:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Implementare locking ottimistico
    - Utilizzare cache distribuito
    - Aggiungere rate limiting dove necessario
 
+<<<<<<< HEAD
 ## Frontend Component Bottlenecks
 
 ### 1. Gestione Componenti UI
@@ -408,36 +452,81 @@ In componenti Livewire e UI:
    - Implementare lazy loading per media
    - Utilizzare CDN per risorse statiche
    - Configurare caching appropriato
+=======
+## Frontend Bottlenecks
+
+### 1. Rendering Grafici
+In `QuestionCharts` Livewire component:
+
+```php
+// Problemi identificati:
+- Caricamento dati non ottimizzato
+- Rendering inefficiente di grandi dataset
+- Mancanza di lazy loading
+```
+
+**Soluzioni proposte:**
+1. Ottimizzare caricamento dati:
+   - Implementare lazy loading
+   - Utilizzare paginazione infinita
+   - Caching lato client
+
+2. Migliorare rendering:
+   - Utilizzare virtual scrolling
+   - Implementare rendering progressivo
+   - Ottimizzare aggiornamenti DOM
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 ## Monitoring e Profiling
 
 ### Strumenti Raccomandati
+<<<<<<< HEAD
 1. **Query Monitoring:**
+=======
+1. Query Monitoring:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Laravel Telescope per debug query
    - Query logging per identificare N+1 problems
    - Index Analyzer per ottimizzazione indici
 
+<<<<<<< HEAD
 2. **Performance Profiling:**
+=======
+2. Performance Profiling:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Xdebug per profiling PHP
    - Laravel Debug Bar per analisi runtime
    - Memory profiling per leak detection
 
 ### Metriche da Monitorare
+<<<<<<< HEAD
 1. **Query Performance:**
+=======
+1. Query Performance:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Tempo esecuzione query
    - Numero di query per request
    - Query cache hit rate
 
+<<<<<<< HEAD
 2. **Memory Usage:**
+=======
+2. Memory Usage:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Peak memory usage
    - Memory growth over time
    - Garbage collection stats
 
+<<<<<<< HEAD
 3. **Response Times:**
+=======
+3. Response Times:
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
    - Average response time
    - 95th percentile latency
    - Time to first byte
 
+<<<<<<< HEAD
 ## Content Management Bottlenecks
 
 ### 1. Gestione Contenuti JSON
@@ -1277,3 +1366,44 @@ class OptimizedFileSystem
 }
 ```
 >>>>>>> 2492ddab (first)
+=======
+## Raccomandazioni Immediate
+
+1. Implementazione Cache:
+```php
+// Esempio implementazione cache
+public function execute(QuestionChart $q, ?AnswersFilterData $filter = null): array
+{
+    $cacheKey = $this->generateCacheKey($q, $filter);
+    return Cache::remember($cacheKey, now()->addHours(1), function () use ($q, $filter) {
+        return $this->doExecute($q, $filter);
+    });
+}
+```
+
+2. Query Optimization:
+```php
+// Esempio ottimizzazione query
+public function getAnswers()
+{
+    return $this->query
+        ->select(['id', 'question_id', 'answer']) // Select specifici
+        ->with(['question:id,title']) // Eager loading ottimizzato
+        ->chunk(1000, function ($answers) {
+            // Process in chunks
+        });
+}
+```
+
+3. Memory Management:
+```php
+// Esempio gestione memoria
+public function exportData()
+{
+    return LazyCollection::make(function () {
+        // Yield results instead of loading all in memory
+        yield from $this->getResults();
+    })->chunk(1000);
+}
+```
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

@@ -13,7 +13,10 @@ La documentazione di questi errori ha lo scopo di fornire una guida rapida per l
 3. [Errore: Classe Model non istanziabile](#errore-classe-model-non-istanziabile)
 4. [Errore: Namespace non trovato](#errore-namespace-non-trovato)
 5. [Errore: Modello non trovato](#errore-modello-non-trovato)
+<<<<<<< HEAD
 6. [Errore: Undefined array key "class"](#errore-undefined-array-key-class)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 ---
 
@@ -169,6 +172,7 @@ Class "App\Models\NomeModello" not found
 
 ---
 
+<<<<<<< HEAD
 ## Errore: Undefined array key "class"
 
 ### Descrizione
@@ -194,6 +198,8 @@ Undefined array key "class"
 
 ---
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 ## Best Practices per Evitare Errori Comuni
 
 1. **Verifica sempre i namespace**: Prima di utilizzare una classe, controlla che il namespace sia corretto e che la classe esista in quella posizione.

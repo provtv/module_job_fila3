@@ -34,6 +34,7 @@ define ROOT "C:/var/www/nome_giunzione/public"
 a  
 define ROOT "C:/var/www/nome_giunzione/public_html"  
 
+<<<<<<< HEAD
 ---
 title: Url Not Found
 description: Url Not Found
@@ -70,4 +71,6 @@ define ROOT "C:/var/www/nome_giunzione/public"
 a  
 define ROOT "C:/var/www/nome_giunzione/public_html"  
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 **NB**: dopo aver fatto questa modifica, riavviare laragon

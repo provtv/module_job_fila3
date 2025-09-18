@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE JOB - .GITIGNORE
 # ==============================================
@@ -334,3 +335,49 @@ laravel/Modules/Cms/build/
 .php-cs-fixer.cache
 **/*.Zone.Identifier
 >>>>>>> 92bbd925 (Squashed 'bashscripts/' content from commit 267da72b)
+=======
+*.jar
+*.log
+*.lock
+package-lock.json
+*.phar
+.git-rewrite
+.php-cs-fixer.cache
+package-lock.json
+vendor/
+node_modules/
+.env
+/.vagrant
+.phpunit.result.cache
+.DS_Store
+error_log
+.phpintel
+/.idea
+
+*.lock
+package-lock.json
+*.stackdump
+*.cache
+/build
+.git-blame-ignore-revs
+.git-rewrite
+.php-cs-fixer.cache
+*.phar
+.git-rewrite/
+
+node_modules
+.git-blame-ignore-revs
+.git-blame-ignore-revs
+node_modules
+vendor
+.git-blame-ignore-revs
+build/
+vendor/
+build/
+node_modules
+docs/cache/
+cache/
+.git-blame-ignore-revs
+.php-cs-fixer.cache
+*.exe
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

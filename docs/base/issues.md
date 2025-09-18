@@ -143,6 +143,7 @@ E' possibile fare un backup del progetto con il file
 ```
 
 
+<<<<<<< HEAD
 ---
 title: Errori Comuni
 description: Come Risolvere gli Errori più Comuni
@@ -288,3 +289,5 @@ E' possibile fare un backup del progetto con il file
 ```
 
 
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

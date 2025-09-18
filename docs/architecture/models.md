@@ -35,6 +35,7 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/type_hinting.txt}
 ```txt
 ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 ```
+<<<<<<< HEAD
 # Model Architecture
 
 ## Base Models
@@ -72,3 +73,5 @@ ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/type_hinting.txt}
 ```txt
 ${cat /mnt/f/var/www/quaeris/laravel/Modules/Xot/_docs/scope.txt}
 ```
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)

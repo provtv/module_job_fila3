@@ -2,20 +2,36 @@
 
 ## Documentazione Collegata
 
+<<<<<<< HEAD
 ### Filament
 - [Risorse Filament](../docs/filament-risorse.md)
 - [Personalizzazioni Avanzate](../docs/filament-personalizzazioni-avanzate.md)
 - [Gestione Contenuti](../docs/gestione-contenuti-json.md)
+=======
+### Laraxot
+- [Documentazione Laraxot](../docs/laraxot/)
+- [Migrazione Struttura](../docs/migrazione-struttura.md)
+- [Namespace Rules](../docs/namespace-rules.md)
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 ### Struttura e Convenzioni
 - [Namespace Convention](../docs/namespace-convention.md)
 - [Namespace Structure](../docs/namespace-structure.md)
+<<<<<<< HEAD
 - [Namespace Rules](../docs/namespace-rules.md)
 
 ### Implementazione
 - [Standard Codice](../docs/standard-codice.md)
 - [Traduzioni](../docs/traduzioni.md)
 - [Componenti e Blocchi](../docs/componenti-blocchi-contenuto.md)
+=======
+- [Standard Codice](../docs/standard-codice.md)
+
+### Implementazione
+- [Filament Risorse](../docs/filament-risorse.md)
+- [Personalizzazioni Avanzate](../docs/filament-personalizzazioni-avanzate.md)
+- [Traduzioni](../docs/traduzioni.md)
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
 
 ## Best Practices
 
@@ -66,6 +82,7 @@
 - Documentare i cambiamenti 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -92,3 +109,5 @@
 >>>>>>> de0f89b5 (.)
 =======
 >>>>>>> 2e199498 (.)
+=======
+>>>>>>> 229d0d51 (Squashed 'laravel/Modules/Xot/' content from commit 1e7f566e)
