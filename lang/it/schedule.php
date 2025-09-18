@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -276,6 +277,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> 2e199498 (.)
 return [
     'navigation' => [
         'name' => 'Schedulatore',
@@ -502,4 +505,7 @@ return [
         'label' => 'schedule.model',
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

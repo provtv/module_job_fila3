@@ -39,9 +39,12 @@ use Illuminate\Support\Carbon;
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperFrequency
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
  * @mixin \Eloquent
  */
 class Frequency extends BaseModel

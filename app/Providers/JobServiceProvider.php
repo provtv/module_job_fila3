@@ -57,6 +57,7 @@ class JobServiceProvider extends XotBaseServiceProvider
     public function registerQueue(): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /*
         Queue::before(static function (JobProcessing $event) {
            self::jobStarted($event->job);
@@ -79,6 +80,8 @@ class JobServiceProvider extends XotBaseServiceProvider
     /*
     public function registerSchedule(Schedule $schedule): void {
 =======
+=======
+>>>>>>> 2e199498 (.)
         Queue::before(function (JobProcessing $event) {
             $this->jobStarted($event->job);
         });
@@ -118,7 +121,10 @@ class JobServiceProvider extends XotBaseServiceProvider
 
     public function registerSchedule(Schedule $schedule): void
     {
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
         if (Schema::hasTable('tasks')) {
             $tasks = app(Task::class)
                 ->query()
@@ -126,6 +132,7 @@ class JobServiceProvider extends XotBaseServiceProvider
                 ->where('is_active', true)
                 ->get();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             $tasks->each(
                 function ($task) use ($schedule) {
@@ -165,6 +172,8 @@ class JobServiceProvider extends XotBaseServiceProvider
     }
     */
 =======
+=======
+>>>>>>> 2e199498 (.)
             $tasks->each(function ($task) use ($schedule) {
                 if (! $task instanceof Task) {
                     throw new \Exception('['.__LINE__.']['.class_basename($this).']');
@@ -202,5 +211,8 @@ class JobServiceProvider extends XotBaseServiceProvider
             });
         }
     }
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -199,3 +200,6 @@ return array (
 =======
 null
 >>>>>>> de0f89b5 (.)
+=======
+null
+>>>>>>> 2e199498 (.)

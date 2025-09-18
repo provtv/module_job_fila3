@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -184,6 +185,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> 2e199498 (.)
 return [
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
@@ -321,4 +324,7 @@ return [
         'icon' => 'job-failed-job',
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

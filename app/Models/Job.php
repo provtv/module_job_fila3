@@ -46,9 +46,12 @@ use function Safe\json_decode;
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperJob
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
  * @mixin \Eloquent
  */
 class Job extends BaseModel

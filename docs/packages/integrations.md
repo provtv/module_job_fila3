@@ -84,6 +84,7 @@ SlackAlert::to('channel-name')->message('Job in corso...');
 - [Performance](performance.md)
 - [Panoramica](../packages.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -107,3 +108,5 @@ SlackAlert::to('channel-name')->message('Job in corso...');
 
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

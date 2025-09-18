@@ -65,6 +65,7 @@
 - Testare le modifiche
 - Documentare i cambiamenti 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -89,3 +90,5 @@
 
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE JOB - .GITIGNORE
 # ==============================================
@@ -144,6 +145,8 @@ lang/lang/
 # END OF JOB .GITIGNORE
 # ==============================================
 =======
+=======
+>>>>>>> 2e199498 (.)
 *.lock
 package-lock.json
 .git-rewrite
@@ -182,7 +185,10 @@ cache/
 .git-blame-ignore-revs
 .php-cs-fixer.cache
 *:Zone.Identifier
+<<<<<<< HEAD
 
 # File di log
 *.log
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

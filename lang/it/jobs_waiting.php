@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -149,6 +150,8 @@ return [
     'high' => 'Alta',
     'urgent' => 'Urgente',
 =======
+=======
+>>>>>>> 2e199498 (.)
 return [
     'navigation' => [
         'name' => 'Jobs in Attesa',
@@ -341,7 +344,10 @@ return [
         'normal' => 'Normale',
         'high' => 'Alta',
         'urgent' => 'Urgente',
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
     ],
     'types' => [
         'default' => 'Default',

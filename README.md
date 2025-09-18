@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ⚡ Job - Il SISTEMA di CODE più POTENTE! 🚀
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
@@ -716,6 +717,8 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
   <em>Costruito con ❤️ per la comunità Laravel</em>
 </div>
 =======
+=======
+>>>>>>> 2e199498 (.)
 # 🚀 Unleash the Power of Job Management with Job Module Fila3! 🌟
 
 ## Description
@@ -766,4 +769,7 @@ A special shoutout to the masterminds behind this project:
 
 ## 🤝 Contributing
 Join the revolution! If you want to contribute to the project, send us a pull request or open an issue to share your ideas.
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

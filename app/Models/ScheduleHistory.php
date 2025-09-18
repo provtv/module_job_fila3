@@ -44,9 +44,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperScheduleHistory
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
  * @mixin \Eloquent
  */
 class ScheduleHistory extends BaseModel
@@ -72,11 +75,16 @@ class ScheduleHistory extends BaseModel
          */
     /*
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {
 =======
     public function __construct(array $attributes = [])
     {
 >>>>>>> de0f89b5 (.)
+=======
+    public function __construct(array $attributes = [])
+    {
+>>>>>>> 2e199498 (.)
         parent::__construct($attributes);
 
         $this->table = Config::get('filament-database-schedule.table.schedule_histories', 'schedule_histories');

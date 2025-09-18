@@ -59,11 +59,16 @@ class ClockWidget extends Widget
         /*
         $output = new class() extends StreamOutput {
 <<<<<<< HEAD
+<<<<<<< HEAD
             public function __construct(): void {
 =======
             public function __construct()
             {
 >>>>>>> de0f89b5 (.)
+=======
+            public function __construct()
+            {
+>>>>>>> 2e199498 (.)
                 parent::__construct(fopen('php://output', 'w'));
             }
 

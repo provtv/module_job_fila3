@@ -37,11 +37,16 @@ class WorkerCheck extends Command
      * Create a new command instance.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct() {
 =======
     public function __construct()
     {
 >>>>>>> de0f89b5 (.)
+=======
+    public function __construct()
+    {
+>>>>>>> 2e199498 (.)
         parent::__construct();
     }
 

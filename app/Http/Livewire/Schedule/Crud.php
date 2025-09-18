@@ -6,6 +6,7 @@ namespace Modules\Job\Http\Livewire\Schedule;
 
 use Exception;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Livewire\Component;
 use Modules\Job\Models\Task;
 use Webmozart\Assert\Assert;
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Artisan;
 use Modules\Job\Actions\ExecuteTaskAction;
 use Illuminate\Contracts\Support\Renderable;
 =======
+=======
+>>>>>>> 2e199498 (.)
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Artisan;
@@ -22,7 +25,10 @@ use Livewire\Component;
 use Modules\Job\Actions\ExecuteTaskAction;
 use Modules\Job\Models\Task;
 use Modules\Xot\Actions\GetViewAction;
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 use Symfony\Component\Console\Command\Command;
 
 /**
@@ -85,10 +91,14 @@ class Crud extends Component
                         if (fnmatch($filter, $command->getName())) {
                             return $whitelist;
 <<<<<<< HEAD
+<<<<<<< HEAD
                         }U/Notifications/VerifyEmail.php
 =======
                         }
 >>>>>>> de0f89b5 (.)
+=======
+                        }
+>>>>>>> 2e199498 (.)
                     }
 
                     return ! $whitelist;
@@ -100,13 +110,19 @@ class Crud extends Component
         return $all_commands->sortBy(
             static function (Command $command): string {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Assert::string($name = $command->getName());
 =======
+=======
+>>>>>>> 2e199498 (.)
                 $name = $command->getName();
                 if ($name === null) {
                     return '';
                 }
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
                 if (mb_strpos($name, ':') === false) {
                     return ':'.$name;
                 }

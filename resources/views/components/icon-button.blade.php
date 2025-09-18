@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 s([
 =======
 @props([
 >>>>>>> de0f89b5 (.)
+=======
+@props([
+>>>>>>> 2e199498 (.)
     'color' => 'primary',
     'darkMode' => false,
     'disabled' => false,

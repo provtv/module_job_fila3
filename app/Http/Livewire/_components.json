@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"broad","class":"Broad","module":null,"path":null,"ns":"Modules\\Job\\Http\\Livewire\\Broad"},{"name":"job.status","class":"Job\\Status","module":null,"path":null,"ns":"Modules\\Job\\Http\\Livewire\\Job\\Status"},{"name":"schedule.crud","class":"Schedule\\Crud","module":null,"path":null,"ns":"Modules\\Job\\Http\\Livewire\\Schedule\\Crud"},{"name":"schedule.status","class":"Schedule\\Status","module":null,"path":null,"ns":"Modules\\Job\\Http\\Livewire\\Schedule\\Status"}]
 =======
 <<<<<<< HEAD
@@ -8,6 +9,8 @@
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> 2e199498 (.)
 [
     {
         "name": "broad",
@@ -37,6 +40,7 @@
         "path": null,
         "ns": "Modules\\Job\\Http\\Livewire\\Schedule\\Status"
     }
+<<<<<<< HEAD
 ]
 <<<<<<< HEAD
 =======
@@ -48,3 +52,6 @@
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> de0f89b5 (.)
+=======
+]
+>>>>>>> 2e199498 (.)

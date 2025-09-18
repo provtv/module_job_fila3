@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [{"name":"php-unit-test-job-command","class":"PhpUnitTestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\PhpUnitTestJobCommand"},{"name":"schedule-clear-cache-command","class":"ScheduleClearCacheCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\ScheduleClearCacheCommand"},{"name":"test-job-command","class":"TestJobCommand","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\TestJobCommand"},{"name":"worker-check","class":"WorkerCheck","module":null,"path":null,"ns":"Modules\\Job\\Console\\Commands\\WorkerCheck"}]
 =======
 <<<<<<< HEAD
@@ -8,6 +9,8 @@
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> 2e199498 (.)
 [
     {
         "name": "php-unit-test-job-command",
@@ -37,6 +40,7 @@
         "path": null,
         "ns": "Modules\\Job\\Console\\Commands\\WorkerCheck"
     }
+<<<<<<< HEAD
 ]
 <<<<<<< HEAD
 =======
@@ -48,3 +52,6 @@
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
 >>>>>>> de0f89b5 (.)
+=======
+]
+>>>>>>> 2e199498 (.)

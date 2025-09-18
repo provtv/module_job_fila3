@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 # Struttura del Modulo Job
 
 ## Panoramica
@@ -43,6 +46,7 @@ Il `RouteServiceProvider` gestisce:
 - [Documentazione Generale dei Moduli](/docs/modules.md)
 - [Configurazione Job](/docs/module_job.md)
 - [Best Practices PHPStan](/docs/phpstan/PHPSTAN_LEVEL10_LINEE_GUIDA.md) 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Analisi Dettagliata del Modulo Job
@@ -609,3 +613,5 @@ namespace Modules\Job\App\Filament\Resources;
 
 >>>>>>> aurmich/dev
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

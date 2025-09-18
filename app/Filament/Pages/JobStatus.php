@@ -31,8 +31,11 @@ class JobStatus extends Page
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
+=======
+>>>>>>> 2e199498 (.)
     public function zibibbo(): void
     {
         $result = Process::run('dir');
@@ -45,7 +48,10 @@ class JobStatus extends Page
         $this->out .= $errorOutput;
         $this->out .= now();
     }
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 
     public function artisan(string $cmd): void
     {

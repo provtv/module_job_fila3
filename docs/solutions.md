@@ -344,6 +344,7 @@ class RetryTest extends TestCase {
    - Ottimizzazione indici
    - Review configurazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -371,3 +372,6 @@ class RetryTest extends TestCase {
 =======
    - Aggiornamento strategie retry 
 >>>>>>> de0f89b5 (.)
+=======
+   - Aggiornamento strategie retry 
+>>>>>>> 2e199498 (.)

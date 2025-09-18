@@ -12,6 +12,7 @@ class GetTaskFrequenciesAction
     use QueueableAction;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
@@ -21,11 +22,16 @@ class GetTaskFrequenciesAction
         if (\is_array($res)) {
             /** @var array<string, mixed> */
 =======
+=======
+>>>>>>> 2e199498 (.)
     public function execute(): array
     {
         $res = config('totem.frequencies');
         if (is_array($res)) {
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
             return $res;
         }
 

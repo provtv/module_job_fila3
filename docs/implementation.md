@@ -292,6 +292,7 @@ class JobPageTest extends TestCase
 }
 ``` 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -316,3 +317,5 @@ class JobPageTest extends TestCase
 
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

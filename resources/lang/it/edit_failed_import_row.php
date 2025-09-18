@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -13,6 +14,8 @@ return [
     ],
 ];
 =======
+=======
+>>>>>>> 2e199498 (.)
 <?php return array (
   'actions' => 
   array (
@@ -21,5 +24,9 @@ return [
       'label' => 'delete',
     ),
   ),
+<<<<<<< HEAD
 );
 >>>>>>> de0f89b5 (.)
+=======
+);
+>>>>>>> 2e199498 (.)

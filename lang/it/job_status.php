@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -151,6 +152,8 @@ return array (
   'title' => 'job status',
 );
 =======
+=======
+>>>>>>> 2e199498 (.)
 return [
     'navigation' => [
         'name' => 'Stato Jobs',
@@ -269,4 +272,7 @@ return [
         'job_exported' => 'Dati esportati correttamente',
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

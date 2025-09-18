@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
@@ -126,6 +127,8 @@ return array (
   'title' => 'job monitor',
 );
 =======
+=======
+>>>>>>> 2e199498 (.)
 return [
     'navigation' => [
         'name' => 'Monitor Jobs',
@@ -223,4 +226,7 @@ return [
         'job_stopped' => 'Monitoraggio del job fermato',
     ],
 ];
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

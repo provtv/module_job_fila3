@@ -83,9 +83,12 @@ use Webmozart\Assert\Assert;
  * @method static \Illuminate\Database\Eloquent\Builder|Schedule withTrashed()
  * @method static \Illuminate\Database\Eloquent\Builder|Schedule withoutTrashed()
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperSchedule
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
  * @mixin \Eloquent
  */
 class Schedule extends BaseModel

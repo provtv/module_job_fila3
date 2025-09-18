@@ -12,8 +12,11 @@ use Spatie\LaravelData\DataCollection;
 class CommandData extends Data
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function __construct(): void {}
 =======
+=======
+>>>>>>> 2e199498 (.)
     public function __construct(
         public string $name,
         public string $description,
@@ -22,7 +25,10 @@ class CommandData extends Data
         public array $arguments,
         public array $options,
     ) {}
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {

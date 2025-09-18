@@ -22,13 +22,19 @@ class ListJobsWaiting extends XotBaseListRecords
     public static string $resource = JobsWaitingResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
+=======
+>>>>>>> 2e199498 (.)
     public function getHeaderActions(): array
     {
         return [];
     }
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 
     public function getHeaderWidgets(): array
     {
@@ -37,6 +43,7 @@ class ListJobsWaiting extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
    
 
@@ -56,6 +63,8 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->wrap(),
             'status' => TextColumn::make('status')
 =======
+=======
+>>>>>>> 2e199498 (.)
     public function getTitle(): string
     {
         return __('jobs::translations.title');
@@ -92,7 +101,10 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->sortable()
                 ->wrap(),
             TextColumn::make('status')
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
                 ->badge()
                 ->sortable()
                 ->color(
@@ -103,6 +115,7 @@ class ListJobsWaiting extends XotBaseListRecords
                         default => 'secondary',
                     }
                 ),
+<<<<<<< HEAD
 <<<<<<< HEAD
             'attempts' => TextColumn::make('attempts')
                 ->numeric()
@@ -118,6 +131,8 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->sortable(),
             'updated_at' => TextColumn::make('updated_at')
 =======
+=======
+>>>>>>> 2e199498 (.)
             TextColumn::make('attempts')
                 ->numeric()
                 ->sortable(),
@@ -131,7 +146,10 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->dateTime()
                 ->sortable(),
             TextColumn::make('updated_at')
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
                 ->dateTime()
                 ->sortable(),
         ];

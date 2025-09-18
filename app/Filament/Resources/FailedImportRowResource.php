@@ -16,9 +16,12 @@ class FailedImportRowResource extends XotBaseResource
     public static function getFormSchema(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
         return [
             'import_class' => Forms\Components\TextInput::make('import_class')
                 ->required()

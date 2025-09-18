@@ -21,6 +21,7 @@ class ListFailedJobs extends XotBaseListRecords
     protected static string $resource = FailedJobResource::class;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
@@ -28,6 +29,10 @@ class ListFailedJobs extends XotBaseListRecords
     public function getListTableColumns(): array
     {
 >>>>>>> de0f89b5 (.)
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> 2e199498 (.)
         return [
             'id' => TextColumn::make('id')
                 ->searchable()
@@ -57,6 +62,7 @@ class ListFailedJobs extends XotBaseListRecords
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, \Filament\Actions\Action>
      */
@@ -66,11 +72,16 @@ class ListFailedJobs extends XotBaseListRecords
         return [
             'retry_all' => Action::make('retry_all')
 =======
+=======
+>>>>>>> 2e199498 (.)
     protected function getHeaderActions(): array
     {
         return [
             Action::make('retry_all')
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
                 ->requiresConfirmation()
                 ->action(
                     static function (): void {
@@ -83,10 +94,14 @@ class ListFailedJobs extends XotBaseListRecords
                 ),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             'delete_all' => Action::make('delete_all')
 =======
             Action::make('delete_all')
 >>>>>>> de0f89b5 (.)
+=======
+            Action::make('delete_all')
+>>>>>>> 2e199498 (.)
                 ->requiresConfirmation()
                 ->color('danger')
                 ->action(

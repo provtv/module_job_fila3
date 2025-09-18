@@ -59,6 +59,7 @@ Modules/Job/
 - Security testing
 - Performance testing
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -93,3 +94,5 @@ Modules/Job/
 
 =======
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)

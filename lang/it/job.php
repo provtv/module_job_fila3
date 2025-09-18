@@ -1,6 +1,7 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 return [
@@ -45,6 +46,11 @@ return [
     'pages' => 'Pagine',
     'widgets' => 'Widgets',
 >>>>>>> de0f89b5 (.)
+=======
+return [
+    'pages' => 'Pagine',
+    'widgets' => 'Widgets',
+>>>>>>> 2e199498 (.)
     'navigation' => [
         'name' => 'Job',
         'plural' => 'Jobs',
@@ -52,6 +58,7 @@ return [
             'name' => 'Jobs',
             'description' => 'Gestione dei processi in background',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
         'label' => 'Jobs',
         'sort' => 30,
@@ -399,6 +406,8 @@ return [
         'cannot_cancel' => 'Impossibile annullare il job',
         'cannot_pause' => 'Impossibile mettere in pausa il job',
 =======
+=======
+>>>>>>> 2e199498 (.)
         'label' => 'jobs',
         'sort' => 30,
         'icon' => 'job.navigation',
@@ -490,7 +499,10 @@ return [
         'job_stopped' => 'Job fermato',
         'job_completed' => 'Job completato',
         'job_failed' => 'Job fallito',
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
     ],
     'statuses' => [
         'pending' => 'In Attesa',
@@ -498,16 +510,21 @@ return [
         'completed' => 'Completato',
         'failed' => 'Fallito',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'cancelled' => 'Annullato',
         'retrying' => 'Riprova',
         'paused' => 'In Pausa',
 =======
         'stopped' => 'Fermato',
 >>>>>>> de0f89b5 (.)
+=======
+        'stopped' => 'Fermato',
+>>>>>>> 2e199498 (.)
     ],
     'types' => [
         'import' => 'Importazione',
         'export' => 'Esportazione',
+<<<<<<< HEAD
 <<<<<<< HEAD
         'email' => 'Email',
         'notification' => 'Notifica',
@@ -610,9 +627,14 @@ return [
     ],
     'search_placeholder' => 'Cerca per nome, tipo o stato...',
 =======
+=======
+>>>>>>> 2e199498 (.)
         'process' => 'Elaborazione',
         'notification' => 'Notifica',
         'cleanup' => 'Pulizia',
     ],
+<<<<<<< HEAD
 >>>>>>> de0f89b5 (.)
+=======
+>>>>>>> 2e199498 (.)
 ];
