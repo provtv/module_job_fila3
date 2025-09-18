@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-use Modules\Job\Tests\TestCase;
-
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -11,12 +9,11 @@ use Modules\Job\Tests\TestCase;
 |
 | The closure you provide to your test functions is always bound to a specific PHPUnit test
 | case class. By default, that class is "PHPUnit\Framework\TestCase". Of course, you may
-| need to change it using the "pest()" function to bind a different classes or traits.
+| need to change it using the "uses()" function to bind a different classes or traits.
 |
 */
 
-pest()->extend(TestCase::class)
-    ->in('Feature', 'Unit');
+// uses(Tests\TestCase::class)->in('Feature');
 
 /*
 |--------------------------------------------------------------------------
@@ -29,12 +26,8 @@ pest()->extend(TestCase::class)
 |
 */
 
-expect()->extend('toBeJob', function () {
-    return $this->toBeInstanceOf(\Modules\Job\Models\Job::class);
-});
-
-expect()->extend('toBeJobBatch', function () {
-    return $this->toBeInstanceOf(\Modules\Job\Models\JobBatch::class);
+expect()->extend('toBeOne', function () {
+    return $this->toBe(1);
 });
 
 /*
@@ -48,22 +41,7 @@ expect()->extend('toBeJobBatch', function () {
 |
 */
 
-function createJob(array $attributes = []): \Modules\Job\Models\Job
+function something()
 {
-    return \Modules\Job\Models\Job::factory()->create($attributes);
-}
-
-function makeJob(array $attributes = []): \Modules\Job\Models\Job
-{
-    return \Modules\Job\Models\Job::factory()->make($attributes);
-}
-
-function createJobBatch(array $attributes = []): \Modules\Job\Models\JobBatch
-{
-    return \Modules\Job\Models\JobBatch::factory()->create($attributes);
-}
-
-function makeJobBatch(array $attributes = []): \Modules\Job\Models\JobBatch
-{
-    return \Modules\Job\Models\JobBatch::factory()->make($attributes);
+    // ..
 }
