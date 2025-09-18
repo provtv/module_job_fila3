@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Job\Filament\Resources\ScheduleResource\Pages;
 
 use Filament\Forms\Form;
+<<<<<<< HEAD
 use Filament\Notifications\Notification;
 use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
@@ -15,11 +16,25 @@ use Webmozart\Assert\Assert;
 class EditSchedule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 {
     use NavigationPageLabelTrait;
+=======
+use Webmozart\Assert\Assert;
+use Illuminate\Support\Collection;
+use Filament\Notifications\Notification;
+use Illuminate\Validation\ValidationException;
+use Modules\Job\Filament\Resources\ScheduleResource;
+use Modules\Xot\Filament\Traits\NavigationPageLabelTrait;
+use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+
+class EditSchedule extends XotBaseEditRecord
+{
+    
+>>>>>>> de0f89b5 (.)
 
     public Collection $commands;
 
     protected static string $resource = ScheduleResource::class;
 
+<<<<<<< HEAD
     public function getformSchema(): array
     {
         Assert::isArray($res = $this->getResource()::getFormSchema());
@@ -32,6 +47,9 @@ class EditSchedule extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditReco
         return $form
             ->schema($this->getFormSchema());
     }
+=======
+    
+>>>>>>> de0f89b5 (.)
 
     protected function onValidationError(ValidationException $exception): void
     {

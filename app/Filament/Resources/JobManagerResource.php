@@ -23,7 +23,10 @@ class JobManagerResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
+=======
+>>>>>>> de0f89b5 (.)
         return [
             'job_id' => TextInput::make('job_id')
                 ->required()

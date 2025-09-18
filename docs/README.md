@@ -22,6 +22,7 @@
    - Documentare i flussi
    - Testare la gestione
 
+<<<<<<< HEAD
 ### Versione HEAD
 
 ## Collegamenti correlati
@@ -532,3 +533,9 @@ php artisan test --filter=ResultBusinessLogicTest
 
 ---
 
+=======
+## Collegamenti
+- [Modulo Xot](../../Xot/docs/README.md)
+- [Modulo Cms](../../Cms/docs/README.md)
+- [Modulo Lang](../../Lang/docs/README.md) 
+>>>>>>> de0f89b5 (.)

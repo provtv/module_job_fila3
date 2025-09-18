@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 TYPE html>
+=======
+<!DOCTYPE html>
+>>>>>>> de0f89b5 (.)
 <html lang="en">
     <head>
         <meta charset="utf-8">

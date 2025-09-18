@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Job\Models;
 
+<<<<<<< HEAD
+=======
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+>>>>>>> de0f89b5 (.)
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Carbon;
@@ -35,17 +39,31 @@ use Illuminate\Support\Facades\DB;
  * @method static \Illuminate\Database\Eloquent\Builder|Result whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Result whereUpdatedBy($value)
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+<<<<<<< HEAD
  * @mixin IdeHelperResult
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * @method static \Modules\Job\Database\Factories\ResultFactory factory($count = null, $state = [])
+=======
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class Result extends BaseModel
 {
+<<<<<<< HEAD
     protected $fillable = [
         'duration',
         'result',
         'task_id',
+=======
+    use HasFactory;
+
+    // protected $table = 'task_results';
+
+    protected $fillable = [
+        'duration',
+        'result',
+>>>>>>> de0f89b5 (.)
     ];
 
     public function task(): BelongsTo

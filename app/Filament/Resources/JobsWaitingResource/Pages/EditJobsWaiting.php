@@ -14,7 +14,10 @@ class EditJobsWaiting extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditR
 
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Actions\Action> */
+=======
+>>>>>>> de0f89b5 (.)
         return [
             DeleteAction::make(),
         ];

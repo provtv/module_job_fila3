@@ -1,5 +1,6 @@
 https://github.com/mooxphp/jobs/tree/main
 
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -13,3 +14,5 @@ https://github.com/mooxphp/jobs/tree/main
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

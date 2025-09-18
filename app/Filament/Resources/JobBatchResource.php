@@ -20,7 +20,10 @@ class JobBatchResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
+=======
+>>>>>>> de0f89b5 (.)
         return [
             'id' => \Filament\Forms\Components\TextInput::make('id')
                 ->required()

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<div>
+>>>>>>> de0f89b5 (.)
     @if (session()->has('message'))
     <div class="alert alert-success">
         {{ session('message') }}

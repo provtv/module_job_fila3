@@ -75,6 +75,7 @@ Overall Module Completion: 60%
    - Query optimization
    - Cache implementation
    - Priority: High
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -110,3 +111,5 @@ Overall Module Completion: 60%
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

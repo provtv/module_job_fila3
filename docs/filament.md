@@ -7,6 +7,7 @@ https://medium.com/@laravelprotips/laravel-filament-top-12-plugins-simplified-wi
 
 
 
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -27,3 +28,5 @@ https://medium.com/@laravelprotips/laravel-filament-top-12-plugins-simplified-wi
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

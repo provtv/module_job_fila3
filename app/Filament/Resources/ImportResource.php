@@ -14,7 +14,10 @@ class ImportResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
+=======
+>>>>>>> de0f89b5 (.)
         return [
             'name' => \Filament\Forms\Components\TextInput::make('name')
                 ->required()

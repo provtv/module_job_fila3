@@ -13,7 +13,10 @@ class EditJob extends \Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord
 
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Actions\Action> */
+=======
+>>>>>>> de0f89b5 (.)
         return [
             DeleteAction::make(),
         ];

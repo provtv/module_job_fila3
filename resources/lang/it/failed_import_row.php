@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -14,3 +15,18 @@ return [
         ],
     ],
 ];
+=======
+<?php return array (
+  'fields' => 
+  array (
+    'edit' => 
+    array (
+      'label' => 'edit',
+    ),
+    'validation_error' => 
+    array (
+      'label' => 'validation_error',
+    ),
+  ),
+);
+>>>>>>> de0f89b5 (.)

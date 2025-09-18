@@ -184,6 +184,7 @@ Implementare:
          );
    }
    ```
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -213,3 +214,5 @@ Implementare:
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

@@ -43,7 +43,10 @@ use Illuminate\Support\Collection;
  * @method static \Illuminate\Database\Eloquent\Builder|JobBatch whereTotalJobs($value)
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperJobBatch
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class JobBatch extends BaseModel

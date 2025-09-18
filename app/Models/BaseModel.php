@@ -11,10 +11,13 @@ use Modules\Xot\Traits\Updater;
 
 /**
  * Class BaseModel.
+<<<<<<< HEAD
  * 
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
  * 
+=======
+>>>>>>> de0f89b5 (.)
  */
 abstract class BaseModel extends Model
 {
@@ -62,7 +65,12 @@ abstract class BaseModel extends Model
         // 'password'
     ];
 
+<<<<<<< HEAD
     public function __construct(): void {
+=======
+    public function __construct(array $attributes = [])
+    {
+>>>>>>> de0f89b5 (.)
         if (isset($this->prefix)) {
             $this->table = $this->prefix.$this->table;
         }

@@ -9,6 +9,11 @@ declare(strict_types=1);
 namespace Modules\Job\Models;
 
 /**
+<<<<<<< HEAD
+=======
+ * 
+ *
+>>>>>>> de0f89b5 (.)
  * @method static \Modules\Job\Database\Factories\FailedImportRowFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|FailedImportRow newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|FailedImportRow newQuery()
@@ -31,7 +36,10 @@ namespace Modules\Job\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|FailedImportRow whereValidationError($value)
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperFailedImportRow
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class FailedImportRow extends BaseModel

@@ -58,7 +58,12 @@ class QueueListenWidget extends Widget
         // $output = new BufferedOutput();
         /*
         $output = new class() extends StreamOutput {
+<<<<<<< HEAD
             public function __construct(): void {
+=======
+            public function __construct()
+            {
+>>>>>>> de0f89b5 (.)
                 parent::__construct(fopen('php://output', 'w'));
             }
 

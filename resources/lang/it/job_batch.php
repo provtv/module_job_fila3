@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
@@ -16,3 +17,21 @@ return [
         ],
     ],
 ];
+=======
+<?php return array (
+  'actions' => 
+  array (
+    'prune_batches' => 
+    array (
+      'label' => 'prune_batches',
+    ),
+  ),
+  'fields' => 
+  array (
+    'failed_job_ids' => 
+    array (
+      'label' => 'failed_job_ids',
+    ),
+  ),
+);
+>>>>>>> de0f89b5 (.)

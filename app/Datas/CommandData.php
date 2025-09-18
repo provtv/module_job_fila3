@@ -11,7 +11,18 @@ use Spatie\LaravelData\DataCollection;
 
 class CommandData extends Data
 {
+<<<<<<< HEAD
     public function __construct(): void {}
+=======
+    public function __construct(
+        public string $name,
+        public string $description,
+        public string $signature,
+        public string $full_name,
+        public array $arguments,
+        public array $options,
+    ) {}
+>>>>>>> de0f89b5 (.)
 
     public static function collection(EloquentCollection|Collection|array $data): DataCollection
     {

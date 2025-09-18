@@ -12,6 +12,11 @@ use Eloquent;
 use Filament\Actions\Exports\Models\Export as BaseExport;
 
 /**
+<<<<<<< HEAD
+=======
+ * 
+ *
+>>>>>>> de0f89b5 (.)
  * @method static \Modules\Job\Database\Factories\ExportFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Export newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Export newQuery()
@@ -52,7 +57,10 @@ use Filament\Actions\Exports\Models\Export as BaseExport;
  * @property string|null $user_type
  * @method static \Illuminate\Database\Eloquent\Builder|Export whereUserType($value)
  * @mixin \Eloquent
+<<<<<<< HEAD
  * @mixin IdeHelperExport
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin Eloquent
  */
 class Export extends BaseExport

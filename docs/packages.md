@@ -59,6 +59,7 @@
 - [Monitoraggio](packages/monitoring.md)
 - [Performance](packages/performance.md)
 - [Integrazioni](packages/integrations.md) 
+<<<<<<< HEAD
 ### Versione HEAD
 
 ### Versione HEAD
@@ -87,3 +88,5 @@
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament::page>
+=======
+<x-filament::page>
+>>>>>>> de0f89b5 (.)
     {{--
     <img src="{{ ui::asset('ewall::img/logo.png') }}" />
 

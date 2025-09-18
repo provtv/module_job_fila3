@@ -1,5 +1,6 @@
 https://filamentphp.com/community/danharrin-fast-table-pagination
 
+<<<<<<< HEAD
 ### Versione HEAD
 
 
@@ -14,3 +15,5 @@ https://filamentphp.com/community/danharrin-fast-table-pagination
 
 ---
 
+=======
+>>>>>>> de0f89b5 (.)

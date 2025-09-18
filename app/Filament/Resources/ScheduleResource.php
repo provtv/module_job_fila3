@@ -60,7 +60,10 @@ class ScheduleResource extends XotBaseResource
 
     public static function getFormSchema(): array
     {
+<<<<<<< HEAD
         /** @var array<string, \Filament\Forms\Components\Component> */
+=======
+>>>>>>> de0f89b5 (.)
         static::$commands = app(GetCommandsAction::class)->execute();
         $commands_opts = static::$commands->toCollection()->pluck('full_name', 'name')->toArray();
 

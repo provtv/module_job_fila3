@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<div>
+>>>>>>> de0f89b5 (.)
     {{-- <x-filament::section></x-filament::section>
     <x-filament::section>
         <x-slot name="title">Job Status</x-slot>

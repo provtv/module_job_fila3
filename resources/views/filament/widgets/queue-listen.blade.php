@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 lament-widgets::widget>
+=======
+<x-filament-widgets::widget>
+>>>>>>> de0f89b5 (.)
     <x-filament::section>
         {{-- Widget content --}}
 

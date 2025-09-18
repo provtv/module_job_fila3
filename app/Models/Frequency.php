@@ -38,7 +38,10 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|Frequency whereUpdatedBy($value)
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperFrequency
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class Frequency extends BaseModel

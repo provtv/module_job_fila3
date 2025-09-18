@@ -5,9 +5,14 @@ declare(strict_types=1);
 namespace Modules\Job\Filament\Pages;
 
 use Filament\Pages\Page;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 class Dashboard extends XotBaseDashboard
+=======
+
+class Dashboard extends Page
+>>>>>>> de0f89b5 (.)
 {
     protected static ?string $navigationIcon = 'heroicon-o-home';
 

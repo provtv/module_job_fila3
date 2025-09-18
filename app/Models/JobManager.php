@@ -42,7 +42,10 @@ use Illuminate\Support\Facades\Hash;
  * @method static \Illuminate\Database\Eloquent\Builder|JobManager whereQueue($value)
  * @method static \Illuminate\Database\Eloquent\Builder|JobManager whereStartedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|JobManager whereUpdatedAt($value)
+<<<<<<< HEAD
  * @mixin IdeHelperJobManager
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class JobManager extends BaseModel

@@ -21,7 +21,14 @@ class ListJobsWaiting extends XotBaseListRecords
 {
     public static string $resource = JobsWaitingResource::class;
 
+<<<<<<< HEAD
     
+=======
+    public function getHeaderActions(): array
+    {
+        return [];
+    }
+>>>>>>> de0f89b5 (.)
 
     public function getHeaderWidgets(): array
     {
@@ -30,6 +37,7 @@ class ListJobsWaiting extends XotBaseListRecords
         ];
     }
 
+<<<<<<< HEAD
    
 
     public function getTableColumns(): array
@@ -47,6 +55,44 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->sortable()
                 ->wrap(),
             'status' => TextColumn::make('status')
+=======
+    public function getTitle(): string
+    {
+        return __('jobs::translations.title');
+    }
+
+    public function getTableActions(): array
+    {
+        return [];
+    }
+
+    public function getTableBulkActions(): array
+    {
+        return [
+            DeleteBulkAction::make(),
+        ];
+    }
+
+    public function getGridTableColumns(): array
+    {
+        return [];
+    }
+
+    public function getListTableColumns(): array
+    {
+        return [
+            TextColumn::make('id')
+                ->searchable()
+                ->sortable(),
+            TextColumn::make('queue')
+                ->searchable()
+                ->sortable(),
+            TextColumn::make('display_name')
+                ->searchable()
+                ->sortable()
+                ->wrap(),
+            TextColumn::make('status')
+>>>>>>> de0f89b5 (.)
                 ->badge()
                 ->sortable()
                 ->color(
@@ -57,6 +103,7 @@ class ListJobsWaiting extends XotBaseListRecords
                         default => 'secondary',
                     }
                 ),
+<<<<<<< HEAD
             'attempts' => TextColumn::make('attempts')
                 ->numeric()
                 ->sortable(),
@@ -70,6 +117,21 @@ class ListJobsWaiting extends XotBaseListRecords
                 ->dateTime()
                 ->sortable(),
             'updated_at' => TextColumn::make('updated_at')
+=======
+            TextColumn::make('attempts')
+                ->numeric()
+                ->sortable(),
+            TextColumn::make('available_at')
+                ->dateTime()
+                ->sortable(),
+            TextColumn::make('reserved_at')
+                ->dateTime()
+                ->sortable(),
+            TextColumn::make('created_at')
+                ->dateTime()
+                ->sortable(),
+            TextColumn::make('updated_at')
+>>>>>>> de0f89b5 (.)
                 ->dateTime()
                 ->sortable(),
         ];

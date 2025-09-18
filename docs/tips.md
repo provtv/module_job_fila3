@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Versione HEAD
 
 https://dudi.dev/optimize-laravel-database-queries/
@@ -11,3 +12,6 @@ https://dudi.dev/optimize-laravel-database-queries/
 
 ---
 
+=======
+https://dudi.dev/optimize-laravel-database-queries/
+>>>>>>> de0f89b5 (.)

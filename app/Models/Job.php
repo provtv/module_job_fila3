@@ -45,7 +45,10 @@ use function Safe\json_decode;
  * @property mixed $status
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperJob
+=======
+>>>>>>> de0f89b5 (.)
  * @mixin \Eloquent
  */
 class Job extends BaseModel

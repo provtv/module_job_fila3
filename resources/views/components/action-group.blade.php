@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@php
+>>>>>>> de0f89b5 (.)
     $actions = $getActions();
 @endphp
 <div class="grid grid-cols-2 gap-1" style="width: max-content;">

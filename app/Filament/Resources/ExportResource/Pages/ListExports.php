@@ -16,9 +16,14 @@ class ListExports extends XotBaseListRecords
     /**
      * @return array<string, Column>
      */
+<<<<<<< HEAD
     public function getTableColumns(): array
     {
         /** @var array<string, \Filament\Tables\Columns\Column> */
+=======
+    public function getListTableColumns(): array
+    {
+>>>>>>> de0f89b5 (.)
         return [
             'id' => TextColumn::make('id')
                 ->numeric()
